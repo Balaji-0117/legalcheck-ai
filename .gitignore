@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OCR generated files
+ocr/uploads/
+ocr/__pycache__/
+
+# Generated/preprocessed images
+ocr/sample-data/preprocessed/
+sample-data/preprocessed/
+
+# Generated reports
+reports/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
