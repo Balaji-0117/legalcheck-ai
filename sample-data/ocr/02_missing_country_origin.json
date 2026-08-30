@@ -1,0 +1,31 @@
+{
+  "sampleId": "02_missing_country_origin",
+  "productName": "Global Choice Imported Chocolates",
+  "rawText": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES\nImported & Distributed by: Global Confectionery Ltd, London, UK\nNet Quantity: 200 g\nMRP ₹250.00 incl. of all taxes\nMFD 04/2026\nBest Before 12 Months\nConsumer Care: care@globalchoice.com\nUnit Sale Price: ₹1.25/g",
+  "confidence": 0.94,
+  "fields": {
+    "product_name": "Global Choice Premium Imported Chocolates",
+    "manufacturer": "Global Confectionery Ltd, London, UK",
+    "net_quantity": "200 g",
+    "mrp": "MRP ₹250.00 incl. of all taxes",
+    "manufacturing_date": "MFD 04/2026",
+    "best_before": "Best Before 12 Months",
+    "consumer_care": "care@globalchoice.com",
+    "country_of_origin": null,
+    "unit_sale_price": "Unit Sale Price: ₹1.25/g"
+  },
+  "boxes": [
+    { "field": "product_name", "text": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES", "bbox": [40, 40, 450, 55], "confidence": 0.96 },
+    { "field": "manufacturer", "text": "Imported by: Global Confectionery Ltd, London", "bbox": [40, 110, 480, 40], "confidence": 0.93 },
+    { "field": "net_quantity", "text": "Net Quantity: 200 g", "bbox": [40, 170, 200, 35], "confidence": 0.95 },
+    { "field": "mrp", "text": "MRP ₹250.00 incl. of all taxes", "bbox": [260, 170, 250, 35], "confidence": 0.97 },
+    { "field": "manufacturing_date", "text": "MFD 04/2026", "bbox": [40, 220, 170, 30], "confidence": 0.92 },
+    { "field": "consumer_care", "text": "Consumer Care: care@globalchoice.com", "bbox": [40, 270, 350, 30], "confidence": 0.94 },
+    { "field": "unit_sale_price", "text": "Unit Sale Price: ₹1.25/g", "bbox": [40, 310, 220, 30], "confidence": 0.93 }
+  ],
+  "readability": {
+    "avgTextHeightPx": 20,
+    "confidence": 0.94,
+    "lowContrast": false
+  }
+}

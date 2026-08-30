@@ -1,0 +1,2770 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Inspector Vijay Kumar",
+      "email": "officer@dca.gov.in",
+      "password": "admin",
+      "role": "Enforcement Officer",
+      "badgeNumber": "LM-INSP-2026-884"
+    }
+  ],
+  "scans": [
+    {
+      "id": "LM-2026-96221",
+      "product_name": "Lh a",
+      "image_url": "/uploads/1788077504166-WhatsApp Image 2026-08-30 at 1.39.53 PM.jpeg",
+      "image_urls": [
+        "/uploads/1788077504166-WhatsApp Image 2026-08-30 at 1.39.53 PM.jpeg",
+        "/uploads/1788077504181-WhatsApp Image 2026-08-30 at 1.39.52 PM (1).jpeg",
+        "/uploads/1788077504188-WhatsApp Image 2026-08-30 at 1.39.52 PM.jpeg"
+      ],
+      "photo_count": 3,
+      "score": 62,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T08:12:04.652Z",
+      "rawText": "\n--- [PACKAGE PHOTO 1 - WhatsApp Image 2026-08-30 at 1.39.53 PM.jpeg] ---\nLh a\n\nhi ‘\n\noR)\n\nth g ?\n\ni y Sapir fe\n\nIii y i, ATR. TT\n\nS| HRW\nAR Vo ih a \\\n\nhk) Wate te\n\nCORUNA \\ UO SEE SY\nhe\n\nCL RT en Re hi Q\n5 LE :\nApe as as we\n\na |\n\nSR TAY J\nLg ¢\nSe Balanced |¢ s\nER |\n\noo / N 3\nb\ni\nLae [ \\\n\nfo\n\nBah ne\n\nas\n\nTE \\\n\n0 e \\\\ -\naR \\ 3\nGo \\ L 1\na hom §_ = 40\nLo ._ Vacuum® Evaporated N-\nCE 9 lodised\nGe Ge —\n\nCn ad -\n7 | RECYCLABLE' eo)\nTe 7 PACK yo]\na =e\nan Helps Mental D itl\ni Sl Development® [= : Ld\ni hs “ig Vacuum Evaporated Edible Common Salt .\ni a Eg\nee .\na i ey\ner a\nih EAA\nsm vv a\nLe A UE RE i i SEER\nieee GE aed Eo\ndi hf A. ¢ UdmeRr haw\nSl nn edi Sol | an Sh\ni GED SR aaa EE\nme tard NG aan RS ays\n\n\n--- [PACKAGE PHOTO 2 - WhatsApp Image 2026-08-30 at 1.39.52 PM (1).jpeg] ---\n3 iD 3 6 EB ED\n* ( ) +\n8 9 (e} BKSP\nge YE (SG\n———— Er\noS  NArunaLY Soup Pls f\nToL 1 Supine !\nGUARANTEE. P\n- 4 « NJ\n= rm DID YOU wow? |\nata Salt is made Wh [ACUUT) |\nE Evaporation technology that gy.\n(ATA SALT LITE pc amount of fodine in try yoy i\nEe TT\n| kt by: Tata Consumer Pr ots LITT,\nL Er, [¥ Jawahartal Nehru Road. Jest\n\\ Wome rom oe. Ui bond,\nSOU Mfg by: Tata chemicals Limited, P. 0 ig\n’ Mig: 125361 345, istic Detar\nGujarat, Lic. No. 1001202100035 =p |\nFor Repacking uit detals and [85\nSta sit provides high grade purity, Owing Hh J pion Fad\n. 3 ¢ OR code and see he first two ef\n0 the vacuum evaporation technology: Jetters of the Batch No. ined. Bh\n1 Information (Approximate values)\np 1 g (Servings per pack: 1000)\nglues per 100 g [Per Serve (%) RDAJ- i\neal [0], Protein 0g, Carbohydrate 0G,\nEu ‘Added Sugars 0g [0], Total Fat =\n33000 mg [19], lodine 2 mg [14] 3 il\ni Edible Common Salt, Ut\nte and Aniuaing Agent (5 53) or)\nDIRECT HEAT OR SURLIGHT. 8 1904043901015\" > FH - |\nre aminate is 100% Recycatle. pre——— Li\nTTT Date of ass i\nPackaging: JUNIZ6 [jaa\nAJALT LITE\" - THIS IS ONLY ABRAND ang Jes waste, end\nDOES RA RESeNT Ts Use By: Treo\nRE a Cl ww\naq =\ny, NR TQ\n—— ~ VW \\ NW o\n&: “Wy, 35S -\nCo. Qa IAN NN RN\n\n\n--- [PACKAGE PHOTO 3 - WhatsApp Image 2026-08-30 at 1.39.52 PM.jpeg] ---\nTight ame oe Tok\nphi unt © ALES y\nATT\nTd me\nPY AY\n3 ig ~ h i te '\nha (9% 1 |\n- a. ) 9\nuy ‘ TAKA\" ~\n= BE\n+4 517161 ; (\n= A\nJ, ss\n8 3 158\nWRPT 32.00 nc of altars 1k\nDate of -\n| JUN/26 -\nAJ PLE\nf a\"\nI Sle\nphd |\nv “eg ]\n\n",
+      "confidence": 0.88,
+      "fields": {
+        "product_name": "Lh a",
+        "mrp": "rs 0",
+        "net_quantity": "1 g",
+        "manufacturing_date": "Mfg by",
+        "manufacturer": "Mfg by: Tata chemicals Limited, P. 0 ig",
+        "best_before": "Use By: Treo",
+        "fssai_lic_no": "Lic. No. 1001202100035"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "[Photo 1] PRODUCT NAME: Lh a",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 1"
+        },
+        {
+          "field": "product_name",
+          "text": "[Photo 2] PRODUCT NAME: ang Jes waste, end",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "mrp",
+          "text": "[Photo 2] MRP: rs 0",
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "net_quantity",
+          "text": "[Photo 2] NET QUANTITY: 1 g",
+          "bbox": [
+            40,
+            130,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "[Photo 2] MANUFACTURING DATE: Mfg by",
+          "bbox": [
+            40,
+            175,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "manufacturer",
+          "text": "[Photo 2] MANUFACTURER: Mfg by: Tata chemicals Limited, P. 0 ig",
+          "bbox": [
+            40,
+            220,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "best_before",
+          "text": "[Photo 2] BEST BEFORE: Use By: Treo",
+          "bbox": [
+            40,
+            265,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "fssai_lic_no",
+          "text": "[Photo 2] FSSAI LIC NO: Lic. No. 1001202100035",
+          "bbox": [
+            40,
+            310,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "product_name",
+          "text": "[Photo 3] PRODUCT NAME: Tight ame oe Tok",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 3"
+        },
+        {
+          "field": "mrp",
+          "text": "[Photo 3] MRP: rs 1",
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 3"
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.88,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Consumer care contact details (phone, email or address) missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Consumer Care Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"Mfg by: Tata chemicals Limited, P. 0 ig...\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            220,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] MANUFACTURER: Mfg by: Tata chemicals Limited, P. 0 ig"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"Lh a\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 1] PRODUCT NAME: Lh a"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"1 g\"",
+          "confidence": 0.94,
+          "bbox": [
+            40,
+            130,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] NET QUANTITY: 1 g"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"rs 0\"",
+          "confidence": 0.96,
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] MRP: rs 0"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"Mfg by\"",
+          "confidence": 0.91,
+          "bbox": [
+            40,
+            175,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] MANUFACTURING DATE: Mfg by"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Use By: Treo\"",
+          "confidence": 0.88,
+          "bbox": [
+            40,
+            265,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] BEST BEFORE: Use By: Treo"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 7,
+        "failedChecks": 5,
+        "warningChecks": 1,
+        "highSeverityViolations": 2
+      }
+    },
+    {
+      "id": "LM-2026-27237",
+      "product_name": "Sunfeast Fa ntastil S per Stick J PP",
+      "image_url": "/uploads/1788077153944-WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg",
+      "image_urls": [
+        "/uploads/1788077153944-WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg",
+        "/uploads/1788077153980-WhatsApp Image 2026-08-30 at 12.58.57 PM.jpeg",
+        "/uploads/1788077154011-WhatsApp Image 2026-08-30 at 12.59.10 PM.jpeg"
+      ],
+      "photo_count": 3,
+      "score": 42,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T08:06:12.350Z",
+      "rawText": "\n--- [PACKAGE PHOTO 1 - WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg] ---\nSunfeast \\'%\nFa ntastil.\nS per Stick J PP ——\n\n\n--- [PACKAGE PHOTO 2 - WhatsApp Image 2026-08-30 at 12.58.57 PM.jpeg] ---\n’ \\ 'Y o \\\n<a 3 231]\n» UES): PE O00 AIR 1\nAlE 70.7 A Hd\nI last) MOL CCA 2.3010 ¥\n-LO | LT An BF <5\nbl b B18 RUT\n(Ci.\nhd ©S BATCH NO:\nMFD.:\n. k USEBY:\n\n\n--- [PACKAGE PHOTO 3 - WhatsApp Image 2026-08-30 at 12.59.10 PM.jpeg] ---\nBR\n: PALM OIL, MIXED MILLET FLOUR (ASE\nFl, MADA REFNED We HO\nSOYBEAN), DIACETYLTARTARIC AN\n1 ICTYATE (ROM ALY rE ©\nJie IDENTICAL FLAVOUR, Sa ig\noi LATE). CONTAINS MILK Wig Diy.\n5S & Lic. No., MATCH TH fi\nrAcTiREAs ADDRESS PANE EOE\n1. LTD,, SY NO. 832/P, INDUSTRIAL a1\nee\n1d -1TC ] NOS. 74, 78,111 -\ntgs Lc fo, 902299000002 ct\n3HT, OCASSIONA LY THERE COULD BE VARIATIONIN THE gg oe1\nIRAPPER(S 10iD OFPRODUCT. ~ © =\nSTORE IN A COOL AND DRY PEACE.\n2031000312 I I III |\n3 ICLTD., 1 001970\n5 yom o07,  KTMMACKANRS\n\n",
+      "confidence": 0.88,
+      "fields": {
+        "product_name": "Sunfeast Fa ntastil S per Stick J PP",
+        "manufacturing_date": "BATCH NO: MFD",
+        "best_before": "USEBY",
+        "manufacturer": "CONTAINS MILK Wig Diy. 5S & Lic. No., MATCH TH fi rAcTiREAs ADDRESS PANE EOE 1. LTD,, SY NO. 832/P, INDUSTRIAL a1",
+        "ingredients": "PALM OIL, MIXED MILLET FLOUR (ASE"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "[Photo 1] PRODUCT NAME: Sunfeast Fa ntastil S per Stick J PP",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 1"
+        },
+        {
+          "field": "product_name",
+          "text": "[Photo 2] PRODUCT NAME: a 3 231",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "[Photo 2] MANUFACTURING DATE: BATCH NO: MFD",
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "best_before",
+          "text": "[Photo 2] BEST BEFORE: USEBY",
+          "bbox": [
+            40,
+            130,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "product_name",
+          "text": "[Photo 3] PRODUCT NAME: Fl, MADA REFNED We HO",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 3"
+        },
+        {
+          "field": "manufacturer",
+          "text": "[Photo 3] MANUFACTURER: CONTAINS MILK Wig Diy. 5S & Lic. No., MATCH TH fi rAcTiREAs ADDRESS PANE EOE 1. LTD,, SY NO. 832/P, INDUSTRIAL a1",
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 3"
+        },
+        {
+          "field": "ingredients",
+          "text": "[Photo 3] INGREDIENTS: PALM OIL, MIXED MILLET FLOUR (ASE",
+          "bbox": [
+            40,
+            130,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 3"
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.88,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Net quantity declaration missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Net Quantity Declaration constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Maximum Retail Price (MRP) declaration missing.",
+          "confidence": 0.3,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Maximum Retail Price (MRP) constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Consumer care contact details (phone, email or address) missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Consumer Care Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"CONTAINS MILK Wig Diy. 5S & Lic. No., MA...\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 3] MANUFACTURER: CONTAINS MILK Wig Diy. 5S & Lic. No., MATCH TH fi rAcTiREAs ADDRESS PANE EOE 1. LTD,, SY NO. 832/P, INDUSTRIAL a1"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"Sunfeast Fa ntastil S per Stick J PP\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 1] PRODUCT NAME: Sunfeast Fa ntastil S per Stick J PP"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"BATCH NO: MFD\"",
+          "confidence": 0.91,
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] MANUFACTURING DATE: BATCH NO: MFD"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"USEBY\"",
+          "confidence": 0.88,
+          "bbox": [
+            40,
+            130,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] BEST BEFORE: USEBY"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 5,
+        "failedChecks": 7,
+        "warningChecks": 1,
+        "highSeverityViolations": 4
+      }
+    },
+    {
+      "id": "LM-2026-82625",
+      "product_name": "WhatsApp Image 2026 08 30 at 12.58.41 PM",
+      "image_url": "/uploads/1788076617541-WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg",
+      "image_urls": [
+        "/uploads/1788076617541-WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg",
+        "/uploads/1788076617565-WhatsApp Image 2026-08-30 at 12.58.57 PM.jpeg",
+        "/uploads/1788076617572-WhatsApp Image 2026-08-30 at 12.59.10 PM.jpeg"
+      ],
+      "photo_count": 3,
+      "score": 25,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T07:57:19.352Z",
+      "rawText": "\n--- [PACKAGE PHOTO 1 - WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg] ---\nSunfeast \\'%\nFa ntastil.\nS per Stick J PP ——\n\n\n--- [PACKAGE PHOTO 2 - WhatsApp Image 2026-08-30 at 12.58.57 PM.jpeg] ---\n’ \\ 'Y o \\\n<a 3 231]\n» UES): PE O00 AIR 1\nAlE 70.7 A Hd\nI last) MOL CCA 2.3010 ¥\n-LO | LT An BF <5\nbl b B18 RUT\n(Ci.\nhd ©S BATCH NO:\nMFD.:\n. k USEBY:\n\n\n--- [PACKAGE PHOTO 3 - WhatsApp Image 2026-08-30 at 12.59.10 PM.jpeg] ---\nBR\n: PALM OIL, MIXED MILLET FLOUR (ASE\nFl, MADA REFNED We HO\nSOYBEAN), DIACETYLTARTARIC AN\n1 ICTYATE (ROM ALY rE ©\nJie IDENTICAL FLAVOUR, Sa ig\noi LATE). CONTAINS MILK Wig Diy.\n5S & Lic. No., MATCH TH fi\nrAcTiREAs ADDRESS PANE EOE\n1. LTD,, SY NO. 832/P, INDUSTRIAL a1\nee\n1d -1TC ] NOS. 74, 78,111 -\ntgs Lc fo, 902299000002 ct\n3HT, OCASSIONA LY THERE COULD BE VARIATIONIN THE gg oe1\nIRAPPER(S 10iD OFPRODUCT. ~ © =\nSTORE IN A COOL AND DRY PEACE.\n2031000312 I I III |\n3 ICLTD., 1 001970\n5 yom o07,  KTMMACKANRS\n\n",
+      "confidence": 0.88,
+      "fields": {
+        "product_name": "WhatsApp Image 2026 08 30 at 12.58.41 PM",
+        "best_before": "USEBY:"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "[Photo 1] PRODUCT NAME: WhatsApp Image 2026 08 30 at 12.58.41 PM",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 1"
+        },
+        {
+          "field": "product_name",
+          "text": "[Photo 2] PRODUCT NAME: WhatsApp Image 2026 08 30 at 12.58.57 PM",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "best_before",
+          "text": "[Photo 2] BEST BEFORE: USEBY:",
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 2"
+        },
+        {
+          "field": "product_name",
+          "text": "[Photo 3] PRODUCT NAME: ~ © =",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92,
+          "side": "Photo 3"
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.88,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Manufacturer / Packer / Importer name & address declaration not detected on label.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Manufacturer/Packer/Importer Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Net quantity declaration missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Net Quantity Declaration constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Maximum Retail Price (MRP) declaration missing.",
+          "confidence": 0.3,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Maximum Retail Price (MRP) constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Month and Year of manufacture / packing date missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Manufacture/Packing/Import Date declaration formatting to comply with Rule 6(1)(d)."
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Consumer care contact details (phone, email or address) missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Consumer Care Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"WhatsApp Image 2026 08 30 at 12.58.41 PM\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 1] PRODUCT NAME: WhatsApp Image 2026 08 30 at 12.58.41 PM"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"USEBY:\"",
+          "confidence": 0.88,
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 2] BEST BEFORE: USEBY:"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 3,
+        "failedChecks": 9,
+        "warningChecks": 1,
+        "highSeverityViolations": 5
+      }
+    },
+    {
+      "id": "LM-2026-79467",
+      "product_name": "NutriCrunch Almond Cookies",
+      "image_url": "/sample-images/05_font_readability_warning.jpg",
+      "score": 88,
+      "status": "WARNING",
+      "created_at": "2026-08-30T07:45:02.110Z",
+      "rawText": "NUTRICRUNCH ALMOND COOKIES\nMfg by: NutriCrunch Bakers, Ind. Layout, Bangalore 560068\nNet Wt: 75g\nMRP ₹40.00 incl. of all taxes\nMFD 01/2026\nBest Before 6 Months\nConsumer Care: 1800-445-8888\nCountry of Origin: India\nUnit Sale Price: ₹0.53/g",
+      "confidence": 0.72,
+      "fields": {
+        "product_name": "NutriCrunch Almond Cookies",
+        "manufacturer": "NutriCrunch Bakers, Ind. Layout, Bangalore 560068",
+        "net_quantity": "75g",
+        "mrp": "MRP ₹40.00 incl. of all taxes",
+        "manufacturing_date": "MFD 01/2026",
+        "best_before": "Best Before 6 Months",
+        "consumer_care": "Consumer Care: 1800-445-8888",
+        "country_of_origin": "Country of Origin: India",
+        "unit_sale_price": "Unit Sale Price: ₹0.53/g"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "NUTRICRUNCH ALMOND COOKIES",
+          "bbox": [
+            50,
+            40,
+            380,
+            40
+          ],
+          "confidence": 0.85
+        },
+        {
+          "field": "manufacturer",
+          "text": "Mfg by: NutriCrunch Bakers, Bangalore",
+          "bbox": [
+            50,
+            90,
+            410,
+            25
+          ],
+          "confidence": 0.75
+        },
+        {
+          "field": "net_quantity",
+          "text": "Net Wt: 75g",
+          "bbox": [
+            50,
+            125,
+            120,
+            15
+          ],
+          "confidence": 0.7
+        },
+        {
+          "field": "mrp",
+          "text": "MRP ₹40.00 incl. of all taxes",
+          "bbox": [
+            180,
+            125,
+            200,
+            15
+          ],
+          "confidence": 0.78
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "MFD 01/2026",
+          "bbox": [
+            50,
+            145,
+            110,
+            12
+          ],
+          "confidence": 0.68
+        },
+        {
+          "field": "consumer_care",
+          "text": "Consumer Care: 1800-445-8888",
+          "bbox": [
+            50,
+            160,
+            240,
+            12
+          ],
+          "confidence": 0.69
+        },
+        {
+          "field": "country_of_origin",
+          "text": "Country of Origin: India",
+          "bbox": [
+            50,
+            175,
+            180,
+            12
+          ],
+          "confidence": 0.71
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 9,
+        "confidence": 0.72,
+        "lowContrast": true
+      },
+      "violations": [
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "WARNING",
+          "reason": "Image-based screening: Mandatory text declarations may have potential font-size / readability compliance issues.",
+          "confidence": 0.78,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Image-Based Font & Readability Screening declaration formatting to comply with Rule 7 & Rule 9."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"NutriCrunch Bakers, Ind. Layout, Bangalo...\"",
+          "confidence": 0.92,
+          "bbox": [
+            50,
+            90,
+            410,
+            25
+          ],
+          "detectedText": "Mfg by: NutriCrunch Bakers, Bangalore"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"NutriCrunch Almond Cookies\"",
+          "confidence": 0.95,
+          "bbox": [
+            50,
+            40,
+            380,
+            40
+          ],
+          "detectedText": "NUTRICRUNCH ALMOND COOKIES"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"75g\"",
+          "confidence": 0.94,
+          "bbox": [
+            50,
+            125,
+            120,
+            15
+          ],
+          "detectedText": "Net Wt: 75g"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP ₹40.00 incl. of all taxes\"",
+          "confidence": 0.96,
+          "bbox": [
+            180,
+            125,
+            200,
+            15
+          ],
+          "detectedText": "MRP ₹40.00 incl. of all taxes"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"MFD 01/2026\"",
+          "confidence": 0.91,
+          "bbox": [
+            50,
+            145,
+            110,
+            12
+          ],
+          "detectedText": "MFD 01/2026"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"Consumer Care: 1800-445-8888\"",
+          "confidence": 0.93,
+          "bbox": [
+            50,
+            160,
+            240,
+            12
+          ],
+          "detectedText": "Consumer Care: 1800-445-8888"
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Country of origin declared: \"Country of Origin: India\"",
+          "confidence": 0.9,
+          "bbox": [
+            50,
+            175,
+            180,
+            12
+          ],
+          "detectedText": "Country of Origin: India"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Best Before 6 Months\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "Best Before 6 Months"
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Unit Sale Price declared: \"Unit Sale Price: ₹0.53/g\"",
+          "confidence": 0.92,
+          "bbox": null,
+          "detectedText": "Unit Sale Price: ₹0.53/g"
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "PASS",
+          "reason": "Feb 2026 Amendment: Country of origin compliance verified.",
+          "confidence": 0.91,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 10,
+        "failedChecks": 1,
+        "warningChecks": 2,
+        "highSeverityViolations": 0
+      }
+    },
+    {
+      "id": "LM-2026-88301",
+      "product_name": "WhatsApp Image 2026 08 30 at 12.58.41 PM",
+      "image_url": "/uploads/1788075715570-WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg",
+      "score": 22,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T07:42:03.648Z",
+      "rawText": "Sunfeast \\'%\nFa ntastil.\nS per Stick J PP ——\n",
+      "confidence": 0.39,
+      "fields": {
+        "product_name": "WhatsApp Image 2026 08 30 at 12.58.41 PM"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "PRODUCT NAME: WhatsApp Image 2026 08 30 at 12.58.41 PM",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 22,
+        "confidence": 0.39,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Manufacturer / Packer / Importer name & address declaration not detected on label.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Manufacturer/Packer/Importer Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Net quantity declaration missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Net Quantity Declaration constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Maximum Retail Price (MRP) declaration missing.",
+          "confidence": 0.3,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Maximum Retail Price (MRP) constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Month and Year of manufacture / packing date missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Manufacture/Packing/Import Date declaration formatting to comply with Rule 6(1)(d)."
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Consumer care contact details (phone, email or address) missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Consumer Care Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "WARNING",
+          "reason": "Best before / use by date not found (Applicable if product is perishable/consumable).",
+          "confidence": 0.75,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Best Before / Use By declaration formatting to comply with Rule 6(1)(d)."
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"WhatsApp Image 2026 08 30 at 12.58.41 PM\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "detectedText": "PRODUCT NAME: WhatsApp Image 2026 08 30 at 12.58.41 PM"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 2,
+        "failedChecks": 9,
+        "warningChecks": 2,
+        "highSeverityViolations": 5
+      }
+    },
+    {
+      "id": "LM-2026-81459",
+      "product_name": "WhatsApp Image 2026 08 30 at 12.58.57 PM",
+      "image_url": "/uploads/1788075080775-WhatsApp Image 2026-08-30 at 12.58.57 PM.jpeg",
+      "score": 25,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T07:31:36.564Z",
+      "rawText": "’ \\ 'Y o \\\n<a 3 231]\n» UES): PE O00 AIR 1\nAlE 70.7 A Hd\nI last) MOL CCA 2.3010 ¥\n-LO | LT An BF <5\nbl b B18 RUT\n(Ci.\nhd ©S BATCH NO:\nMFD.:\n. k USEBY:\n",
+      "confidence": 0.41,
+      "fields": {
+        "product_name": "WhatsApp Image 2026 08 30 at 12.58.57 PM",
+        "best_before": "USEBY:"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "PRODUCT NAME: WhatsApp Image 2026 08 30 at 12.58.57 PM",
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "confidence": 0.92
+        },
+        {
+          "field": "best_before",
+          "text": "BEST BEFORE: USEBY:",
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 22,
+        "confidence": 0.41,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Manufacturer / Packer / Importer name & address declaration not detected on label.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Manufacturer/Packer/Importer Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Net quantity declaration missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Net Quantity Declaration constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Maximum Retail Price (MRP) declaration missing.",
+          "confidence": 0.3,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Maximum Retail Price (MRP) constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Month and Year of manufacture / packing date missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Manufacture/Packing/Import Date declaration formatting to comply with Rule 6(1)(d)."
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Consumer care contact details (phone, email or address) missing.",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Consumer Care Details constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"WhatsApp Image 2026 08 30 at 12.58.57 PM\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            420,
+            35
+          ],
+          "detectedText": "PRODUCT NAME: WhatsApp Image 2026 08 30 at 12.58.57 PM"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"USEBY:\"",
+          "confidence": 0.88,
+          "bbox": [
+            40,
+            85,
+            420,
+            35
+          ],
+          "detectedText": "BEST BEFORE: USEBY:"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 3,
+        "failedChecks": 9,
+        "warningChecks": 1,
+        "highSeverityViolations": 5
+      }
+    },
+    {
+      "id": "LM-2026-97919",
+      "product_name": "Sunrise Premium Whole Wheat Atta",
+      "image_url": "/sample-images/03_missing_unit_sale_price.jpg",
+      "score": 85,
+      "status": "WARNING",
+      "created_at": "2026-08-30T07:26:35.355Z",
+      "rawText": "SUNRISE PREMIUM WHOLE WHEAT ATTA\nMfg by: Sunrise Agro Foods Pvt Ltd, Guntur, Andhra Pradesh 522002\nNet Weight: 5 kg\nMRP ₹280.00 incl. of all taxes\nPKD 05/2026\nBest Before 4 Months from packing\nConsumer Helpline: 1800-112-9900\nCountry of Origin: India",
+      "confidence": 0.95,
+      "fields": {
+        "product_name": "Sunrise Premium Whole Wheat Atta",
+        "manufacturer": "Sunrise Agro Foods Pvt Ltd, Guntur, Andhra Pradesh 522002",
+        "net_quantity": "5 kg",
+        "mrp": "MRP ₹280.00 incl. of all taxes",
+        "manufacturing_date": "PKD 05/2026",
+        "best_before": "Best Before 4 Months from packing",
+        "consumer_care": "Consumer Helpline: 1800-112-9900",
+        "country_of_origin": "Country of Origin: India",
+        "unit_sale_price": null
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "SUNRISE PREMIUM WHOLE WHEAT ATTA",
+          "bbox": [
+            40,
+            30,
+            480,
+            60
+          ],
+          "confidence": 0.97
+        },
+        {
+          "field": "manufacturer",
+          "text": "Mfg by: Sunrise Agro Foods Pvt Ltd, Guntur",
+          "bbox": [
+            40,
+            100,
+            490,
+            45
+          ],
+          "confidence": 0.94
+        },
+        {
+          "field": "net_quantity",
+          "text": "Net Weight: 5 kg",
+          "bbox": [
+            40,
+            160,
+            180,
+            35
+          ],
+          "confidence": 0.96
+        },
+        {
+          "field": "mrp",
+          "text": "MRP ₹280.00 incl. of all taxes",
+          "bbox": [
+            240,
+            160,
+            260,
+            35
+          ],
+          "confidence": 0.98
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "PKD 05/2026",
+          "bbox": [
+            40,
+            210,
+            160,
+            30
+          ],
+          "confidence": 0.94
+        },
+        {
+          "field": "consumer_care",
+          "text": "Consumer Helpline: 1800-112-9900",
+          "bbox": [
+            40,
+            250,
+            340,
+            35
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field": "country_of_origin",
+          "text": "Country of Origin: India",
+          "bbox": [
+            40,
+            300,
+            230,
+            30
+          ],
+          "confidence": 0.96
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 24,
+        "confidence": 0.95,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"Sunrise Agro Foods Pvt Ltd, Guntur, Andh...\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            100,
+            490,
+            45
+          ],
+          "detectedText": "Mfg by: Sunrise Agro Foods Pvt Ltd, Guntur"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"Sunrise Premium Whole Wheat Atta\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            30,
+            480,
+            60
+          ],
+          "detectedText": "SUNRISE PREMIUM WHOLE WHEAT ATTA"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"5 kg\"",
+          "confidence": 0.94,
+          "bbox": [
+            40,
+            160,
+            180,
+            35
+          ],
+          "detectedText": "Net Weight: 5 kg"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP ₹280.00 incl. of all taxes\"",
+          "confidence": 0.96,
+          "bbox": [
+            240,
+            160,
+            260,
+            35
+          ],
+          "detectedText": "MRP ₹280.00 incl. of all taxes"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"PKD 05/2026\"",
+          "confidence": 0.91,
+          "bbox": [
+            40,
+            210,
+            160,
+            30
+          ],
+          "detectedText": "PKD 05/2026"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"Consumer Helpline: 1800-112-9900\"",
+          "confidence": 0.93,
+          "bbox": [
+            40,
+            250,
+            340,
+            35
+          ],
+          "detectedText": "Consumer Helpline: 1800-112-9900"
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Country of origin declared: \"Country of Origin: India\"",
+          "confidence": 0.9,
+          "bbox": [
+            40,
+            300,
+            230,
+            30
+          ],
+          "detectedText": "Country of Origin: India"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Best Before 4 Months from packing\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "Best Before 4 Months from packing"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "PASS",
+          "reason": "Feb 2026 Amendment: Country of origin compliance verified.",
+          "confidence": 0.91,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 10,
+        "failedChecks": 2,
+        "warningChecks": 1,
+        "highSeverityViolations": 0
+      }
+    },
+    {
+      "id": "LM-2026-39131",
+      "product_name": "Global Choice Imported Chocolates",
+      "image_url": "/sample-images/02_missing_country_origin.jpg",
+      "score": 78,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T07:23:56.524Z",
+      "rawText": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES\nImported & Distributed by: Global Confectionery Ltd, London, UK\nNet Quantity: 200 g\nMRP ₹250.00 incl. of all taxes\nMFD 04/2026\nBest Before 12 Months\nConsumer Care: care@globalchoice.com\nUnit Sale Price: ₹1.25/g",
+      "confidence": 0.94,
+      "fields": {
+        "product_name": "Global Choice Premium Imported Chocolates",
+        "manufacturer": "Global Confectionery Ltd, London, UK",
+        "net_quantity": "200 g",
+        "mrp": "MRP ₹250.00 incl. of all taxes",
+        "manufacturing_date": "MFD 04/2026",
+        "best_before": "Best Before 12 Months",
+        "consumer_care": "care@globalchoice.com",
+        "country_of_origin": null,
+        "unit_sale_price": "Unit Sale Price: ₹1.25/g"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES",
+          "bbox": [
+            40,
+            40,
+            450,
+            55
+          ],
+          "confidence": 0.96
+        },
+        {
+          "field": "manufacturer",
+          "text": "Imported by: Global Confectionery Ltd, London",
+          "bbox": [
+            40,
+            110,
+            480,
+            40
+          ],
+          "confidence": 0.93
+        },
+        {
+          "field": "net_quantity",
+          "text": "Net Quantity: 200 g",
+          "bbox": [
+            40,
+            170,
+            200,
+            35
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field": "mrp",
+          "text": "MRP ₹250.00 incl. of all taxes",
+          "bbox": [
+            260,
+            170,
+            250,
+            35
+          ],
+          "confidence": 0.97
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "MFD 04/2026",
+          "bbox": [
+            40,
+            220,
+            170,
+            30
+          ],
+          "confidence": 0.92
+        },
+        {
+          "field": "consumer_care",
+          "text": "Consumer Care: care@globalchoice.com",
+          "bbox": [
+            40,
+            270,
+            350,
+            30
+          ],
+          "confidence": 0.94
+        },
+        {
+          "field": "unit_sale_price",
+          "text": "Unit Sale Price: ₹1.25/g",
+          "bbox": [
+            40,
+            310,
+            220,
+            30
+          ],
+          "confidence": 0.93
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.94,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"Global Confectionery Ltd, London, UK...\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            110,
+            480,
+            40
+          ],
+          "detectedText": "Imported by: Global Confectionery Ltd, London"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"Global Choice Premium Imported Chocolates\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            450,
+            55
+          ],
+          "detectedText": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"200 g\"",
+          "confidence": 0.94,
+          "bbox": [
+            40,
+            170,
+            200,
+            35
+          ],
+          "detectedText": "Net Quantity: 200 g"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP ₹250.00 incl. of all taxes\"",
+          "confidence": 0.96,
+          "bbox": [
+            260,
+            170,
+            250,
+            35
+          ],
+          "detectedText": "MRP ₹250.00 incl. of all taxes"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"MFD 04/2026\"",
+          "confidence": 0.91,
+          "bbox": [
+            40,
+            220,
+            170,
+            30
+          ],
+          "detectedText": "MFD 04/2026"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"care@globalchoice.com\"",
+          "confidence": 0.93,
+          "bbox": [
+            40,
+            270,
+            350,
+            30
+          ],
+          "detectedText": "Consumer Care: care@globalchoice.com"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Best Before 12 Months\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "Best Before 12 Months"
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Unit Sale Price declared: \"Unit Sale Price: ₹1.25/g\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            310,
+            220,
+            30
+          ],
+          "detectedText": "Unit Sale Price: ₹1.25/g"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 9,
+        "failedChecks": 3,
+        "warningChecks": 1,
+        "highSeverityViolations": 1
+      }
+    },
+    {
+      "id": "LM-2026-88259",
+      "product_name": "Global Choice Imported Chocolates",
+      "image_url": "/sample-images/02_missing_country_origin.jpg",
+      "score": 78,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T06:53:09.177Z",
+      "rawText": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES\nImported & Distributed by: Global Confectionery Ltd, London, UK\nNet Quantity: 200 g\nMRP ₹250.00 incl. of all taxes\nMFD 04/2026\nBest Before 12 Months\nConsumer Care: care@globalchoice.com\nUnit Sale Price: ₹1.25/g",
+      "confidence": 0.94,
+      "fields": {
+        "product_name": "Global Choice Premium Imported Chocolates",
+        "manufacturer": "Global Confectionery Ltd, London, UK",
+        "net_quantity": "200 g",
+        "mrp": "MRP ₹250.00 incl. of all taxes",
+        "manufacturing_date": "MFD 04/2026",
+        "best_before": "Best Before 12 Months",
+        "consumer_care": "care@globalchoice.com",
+        "country_of_origin": null,
+        "unit_sale_price": "Unit Sale Price: ₹1.25/g"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES",
+          "bbox": [
+            40,
+            40,
+            450,
+            55
+          ],
+          "confidence": 0.96
+        },
+        {
+          "field": "manufacturer",
+          "text": "Imported by: Global Confectionery Ltd, London",
+          "bbox": [
+            40,
+            110,
+            480,
+            40
+          ],
+          "confidence": 0.93
+        },
+        {
+          "field": "net_quantity",
+          "text": "Net Quantity: 200 g",
+          "bbox": [
+            40,
+            170,
+            200,
+            35
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field": "mrp",
+          "text": "MRP ₹250.00 incl. of all taxes",
+          "bbox": [
+            260,
+            170,
+            250,
+            35
+          ],
+          "confidence": 0.97
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "MFD 04/2026",
+          "bbox": [
+            40,
+            220,
+            170,
+            30
+          ],
+          "confidence": 0.92
+        },
+        {
+          "field": "consumer_care",
+          "text": "Consumer Care: care@globalchoice.com",
+          "bbox": [
+            40,
+            270,
+            350,
+            30
+          ],
+          "confidence": 0.94
+        },
+        {
+          "field": "unit_sale_price",
+          "text": "Unit Sale Price: ₹1.25/g",
+          "bbox": [
+            40,
+            310,
+            220,
+            30
+          ],
+          "confidence": 0.93
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.94,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "MRP does not include mandatory phrase \"incl. of all taxes\" or \"inclusive of all taxes\".",
+          "confidence": 0.85,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify MRP Standard Formatting declaration formatting to comply with Rule 6(1)(e)."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"Global Confectionery Ltd, London, UK...\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            110,
+            480,
+            40
+          ],
+          "detectedText": "Imported by: Global Confectionery Ltd, London"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"Global Choice Premium Imported Chocolates\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            450,
+            55
+          ],
+          "detectedText": "GLOBAL CHOICE PREMIUM IMPORTED CHOCOLATES"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"200 g\"",
+          "confidence": 0.94,
+          "bbox": [
+            40,
+            170,
+            200,
+            35
+          ],
+          "detectedText": "Net Quantity: 200 g"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP ₹250.00 incl. of all taxes\"",
+          "confidence": 0.96,
+          "bbox": [
+            260,
+            170,
+            250,
+            35
+          ],
+          "detectedText": "MRP ₹250.00 incl. of all taxes"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"MFD 04/2026\"",
+          "confidence": 0.91,
+          "bbox": [
+            40,
+            220,
+            170,
+            30
+          ],
+          "detectedText": "MFD 04/2026"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"care@globalchoice.com\"",
+          "confidence": 0.93,
+          "bbox": [
+            40,
+            270,
+            350,
+            30
+          ],
+          "detectedText": "Consumer Care: care@globalchoice.com"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Best Before 12 Months\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "Best Before 12 Months"
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Unit Sale Price declared: \"Unit Sale Price: ₹1.25/g\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            310,
+            220,
+            30
+          ],
+          "detectedText": "Unit Sale Price: ₹1.25/g"
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 9,
+        "failedChecks": 3,
+        "warningChecks": 1,
+        "highSeverityViolations": 1
+      }
+    },
+    {
+      "id": "LM-2026-00124",
+      "product_name": "Britannica Crunchy Cream Biscuits",
+      "image_url": "/sample-images/01_compliant_biscuits.jpg",
+      "score": 100,
+      "status": "COMPLIANT",
+      "created_at": "2026-08-30T04:48:01.565Z",
+      "extracted_data": {
+        "product_name": "Britannica Crunchy Cream Biscuits",
+        "manufacturer": "Britannica Foods Pvt Ltd, Industrial Area, Hyderabad",
+        "net_quantity": "100 g",
+        "mrp": "MRP ₹50.00 (incl. of all taxes)",
+        "manufacturing_date": "MFD 06/2026",
+        "consumer_care": "1800-425-1111 / care@britannica.com",
+        "country_of_origin": "India",
+        "unit_sale_price": "₹0.50/g"
+      },
+      "violations": []
+    },
+    {
+      "id": "LM-2026-00123",
+      "product_name": "Global Choice Imported Chocolates",
+      "image_url": "/sample-images/02_missing_country_origin.jpg",
+      "score": 82,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-30T01:48:01.567Z",
+      "extracted_data": {
+        "product_name": "Global Choice Imported Chocolates",
+        "manufacturer": "Global Confectionery Ltd, London, UK",
+        "net_quantity": "200 g",
+        "mrp": "MRP ₹250.00 incl. of all taxes",
+        "manufacturing_date": "MFD 04/2026",
+        "consumer_care": "care@globalchoice.com",
+        "country_of_origin": null,
+        "unit_sale_price": "₹1.25/g"
+      },
+      "violations": [
+        {
+          "id": "VIO-001",
+          "rule_id": "LM-007",
+          "field": "country_of_origin",
+          "severity": "HIGH",
+          "reason": "Country of origin declaration missing for imported product (Rule 6)."
+        },
+        {
+          "id": "VIO-002",
+          "rule_id": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "severity": "LOW",
+          "reason": "Feb 2026 Amendment: Mandatory country-of-origin filter tag missing."
+        }
+      ]
+    },
+    {
+      "id": "LM-2026-00122",
+      "product_name": "Sunrise Premium Whole Wheat Atta",
+      "image_url": "/sample-images/03_missing_unit_sale_price.jpg",
+      "score": 85,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-29T18:48:01.567Z",
+      "extracted_data": {
+        "product_name": "Sunrise Premium Whole Wheat Atta",
+        "manufacturer": "Sunrise Agro Foods Pvt Ltd, Guntur",
+        "net_quantity": "5 kg",
+        "mrp": "MRP ₹280.00 incl. of all taxes",
+        "manufacturing_date": "PKD 05/2026",
+        "consumer_care": "1800-112-9900",
+        "country_of_origin": "India",
+        "unit_sale_price": null
+      },
+      "violations": [
+        {
+          "id": "VIO-003",
+          "rule_id": "LM-009",
+          "field": "unit_sale_price",
+          "severity": "MEDIUM",
+          "reason": "Unit Sale Price declaration missing under Rule 6(1)(11)."
+        }
+      ]
+    },
+    {
+      "id": "LM-2026-00121",
+      "product_name": "Sparkle Ultra Detergent Powder",
+      "image_url": "/sample-images/04_missing_mrp_format.jpg",
+      "score": 72,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-08-29T06:48:01.567Z",
+      "extracted_data": {
+        "product_name": "Sparkle Ultra Detergent Powder",
+        "manufacturer": "Sparkle Home Care Ltd, Mumbai",
+        "net_quantity": "1 kg",
+        "mrp": "Price ₹120",
+        "manufacturing_date": "MFD 03/2026",
+        "consumer_care": null,
+        "country_of_origin": "Made in India",
+        "unit_sale_price": "₹120/kg"
+      },
+      "violations": [
+        {
+          "id": "VIO-004",
+          "rule_id": "LM-011",
+          "field": "mrp_format",
+          "severity": "MEDIUM",
+          "reason": "MRP does not specify \"incl. of all taxes\"."
+        },
+        {
+          "id": "VIO-005",
+          "rule_id": "LM-006",
+          "field": "consumer_care",
+          "severity": "HIGH",
+          "reason": "Consumer care contact details missing."
+        }
+      ]
+    },
+    {
+      "id": "LM-2026-00120",
+      "product_name": "NutriCrunch Almond Cookies",
+      "image_url": "/sample-images/05_font_readability_warning.jpg",
+      "score": 88,
+      "status": "WARNING",
+      "created_at": "2026-08-28T18:48:01.567Z",
+      "extracted_data": {
+        "product_name": "NutriCrunch Almond Cookies",
+        "manufacturer": "NutriCrunch Bakers, Bangalore",
+        "net_quantity": "75g",
+        "mrp": "MRP ₹40.00 incl. of all taxes",
+        "manufacturing_date": "MFD 01/2026",
+        "consumer_care": "1800-445-8888",
+        "country_of_origin": "India",
+        "unit_sale_price": "₹0.53/g"
+      },
+      "violations": [
+        {
+          "id": "VIO-006",
+          "rule_id": "LM-012",
+          "field": "font_readability",
+          "severity": "MEDIUM",
+          "reason": "Potential font size / contrast readability issue under Rule 7/9."
+        }
+      ]
+    }
+  ],
+  "totalInspectionsCount": 136,
+  "historicalCompliant": 78,
+  "historicalNonCompliant": 58
+}

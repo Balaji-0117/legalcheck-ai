@@ -1,0 +1,31 @@
+{
+  "sampleId": "05_font_readability_warning",
+  "productName": "NutriCrunch Almond Cookies",
+  "rawText": "NUTRICRUNCH ALMOND COOKIES\nMfg by: NutriCrunch Bakers, Ind. Layout, Bangalore 560068\nNet Wt: 75g\nMRP ₹40.00 incl. of all taxes\nMFD 01/2026\nBest Before 6 Months\nConsumer Care: 1800-445-8888\nCountry of Origin: India\nUnit Sale Price: ₹0.53/g",
+  "confidence": 0.72,
+  "fields": {
+    "product_name": "NutriCrunch Almond Cookies",
+    "manufacturer": "NutriCrunch Bakers, Ind. Layout, Bangalore 560068",
+    "net_quantity": "75g",
+    "mrp": "MRP ₹40.00 incl. of all taxes",
+    "manufacturing_date": "MFD 01/2026",
+    "best_before": "Best Before 6 Months",
+    "consumer_care": "Consumer Care: 1800-445-8888",
+    "country_of_origin": "Country of Origin: India",
+    "unit_sale_price": "Unit Sale Price: ₹0.53/g"
+  },
+  "boxes": [
+    { "field": "product_name", "text": "NUTRICRUNCH ALMOND COOKIES", "bbox": [50, 40, 380, 40], "confidence": 0.85 },
+    { "field": "manufacturer", "text": "Mfg by: NutriCrunch Bakers, Bangalore", "bbox": [50, 90, 410, 25], "confidence": 0.75 },
+    { "field": "net_quantity", "text": "Net Wt: 75g", "bbox": [50, 125, 120, 15], "confidence": 0.70 },
+    { "field": "mrp", "text": "MRP ₹40.00 incl. of all taxes", "bbox": [180, 125, 200, 15], "confidence": 0.78 },
+    { "field": "manufacturing_date", "text": "MFD 01/2026", "bbox": [50, 145, 110, 12], "confidence": 0.68 },
+    { "field": "consumer_care", "text": "Consumer Care: 1800-445-8888", "bbox": [50, 160, 240, 12], "confidence": 0.69 },
+    { "field": "country_of_origin", "text": "Country of Origin: India", "bbox": [50, 175, 180, 12], "confidence": 0.71 }
+  ],
+  "readability": {
+    "avgTextHeightPx": 9,
+    "confidence": 0.72,
+    "lowContrast": true
+  }
+}
