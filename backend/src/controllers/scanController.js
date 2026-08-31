@@ -1,10 +1,12 @@
 /**
  * Scan Controller
- * Handles multi-image upload, multi-side OCR aggregation, rule compliance checking, and database persistence.
+ * Handles multi-image upload, multi-side OCR aggregation,
+ * full-dataset declaration extraction, and comprehensive rule compliance checking.
  */
 
 const db = require('../models/db');
 const { performOCRScan } = require('../../../ocr/service/ocrService');
+const { extractDeclarations } = require('../../../ocr/parser/declarationExtractor');
 const { runComplianceInspection } = require('../../../compliance');
 
 async function handleScan(req, res) {
@@ -29,67 +31,94 @@ async function handleScan(req, res) {
       imagePaths = ['/sample-images/default.jpg'];
     }
 
-    // Process all uploaded side images and aggregate declarations
-    let mergedFields = {};
-    let mergedBoxes = [];
-    let aggregatedRawText = '';
-    let overallConfidence = 0.88;
-    let productNameDetected = '';
+    // =========================================================================
+    // STEP 1: OCR PROCESSING ACROSS ALL UPLOADED IMAGES
+    // =========================================================================
+    let allSideTexts = [];
+    let allSideBoxes = [];
+    let confidenceSum = 0;
+    let confidenceCount = 0;
+    let perSideFields = {};
+    let detectedEngine = 'PaddleOCR (Primary)';
 
     if (files.length > 0) {
+      console.log(`[ScanController] Processing ${files.length} uploaded image(s) through OCR...`);
+      
       for (let i = 0; i < files.length; i++) {
         const file = files[i];
         const sideLabel = `Photo ${i + 1}`;
         const ocrRes = await performOCRScan(file.path, null, file.originalname);
 
-        aggregatedRawText += `\n--- [PACKAGE ${sideLabel.toUpperCase()} - ${file.originalname}] ---\n${ocrRes.rawText}\n`;
-
-        // Merge extracted fields from each side (prioritizing recognized brand names for product_name)
-        Object.entries(ocrRes.fields || {}).forEach(([k, v]) => {
-          if (v) {
-            if (!mergedFields[k]) {
-              mergedFields[k] = v;
-            } else if (k === 'product_name') {
-              const isBrand = (str) => /(sunfeast|britannia|tata|nestle|amul|parle|cadbury|bikaji|haldiram|itc|aashirvaad|fortune|dark\s*fantasy)/i.test(str);
-              if (!isBrand(mergedFields[k]) && isBrand(v)) {
-                mergedFields[k] = v;
-              }
-            }
-          }
-        });
-
-        if (ocrRes.productName) {
-          const isBrand = (str) => /(sunfeast|britannia|tata|nestle|amul|parle|cadbury|bikaji|haldiram|itc|aashirvaad|fortune|dark\s*fantasy)/i.test(str);
-          if (!productNameDetected || (isBrand(ocrRes.productName) && !isBrand(productNameDetected))) {
-            productNameDetected = ocrRes.productName;
-          }
+        if (ocrRes.ocrEngine) {
+          detectedEngine = ocrRes.ocrEngine;
         }
 
-        // Add bounding boxes with side label tag
+        if (ocrRes.rawText && ocrRes.rawText.trim()) {
+          allSideTexts.push(`--- [PACKAGE ${sideLabel.toUpperCase()} - ${file.originalname}] ---\n${ocrRes.rawText.trim()}`);
+        }
+
+        confidenceSum += (ocrRes.confidence || 0.85);
+        confidenceCount++;
+
+        // Tag and aggregate bounding boxes with side label
         (ocrRes.boxes || []).forEach(b => {
-          mergedBoxes.push({
+          allSideBoxes.push({
             ...b,
             side: sideLabel,
-            text: `[${sideLabel}] ${b.text}`
+            text: b.text.startsWith('[Photo') ? b.text : `[${sideLabel}] ${b.text}`
           });
+        });
+
+        // Merge any per-side detected fields
+        Object.entries(ocrRes.fields || {}).forEach(([k, v]) => {
+          if (v && !perSideFields[k]) {
+            perSideFields[k] = v;
+          }
         });
       }
     } else {
-      // Preset sample processing
+      // Preset sample dataset processing
       const ocrResult = await performOCRScan(null, sampleId);
-      mergedFields = ocrResult.fields;
-      mergedBoxes = ocrResult.boxes;
-      aggregatedRawText = ocrResult.rawText;
-      overallConfidence = ocrResult.confidence;
-      productNameDetected = ocrResult.productName;
+      allSideTexts.push(ocrResult.rawText || '');
+      allSideBoxes = ocrResult.boxes || [];
+      confidenceSum = ocrResult.confidence || 0.88;
+      confidenceCount = 1;
+      perSideFields = ocrResult.fields || {};
+      detectedEngine = ocrResult.ocrEngine || 'Preset Sample';
     }
 
-    const aggregatedOcrResult = {
-      rawText: aggregatedRawText,
-      fields: mergedFields,
-      boxes: mergedBoxes,
+    const overallConfidence = confidenceCount > 0
+      ? Math.round((confidenceSum / confidenceCount) * 100) / 100
+      : 0.88;
+
+    // Combined raw text across ALL photographed package panels
+    const fullAggregatedRawText = allSideTexts.join('\n\n');
+
+    // =========================================================================
+    // STEP 2: UNIFIED DECLARATION EXTRACTION ON THE COMPLETE AGGREGATED TEXT
+    // =========================================================================
+    const fullTextExtraction = extractDeclarations(fullAggregatedRawText, allSideBoxes);
+
+    // Merge full-text extraction with per-side detections for maximum completeness
+    const finalMergedFields = { ...perSideFields, ...fullTextExtraction.fields };
+
+    // Brand heuristic to pick the most accurate product name
+    const isBrand = (str) => /(sunfeast|britannia|tata|nestle|amul|parle|cadbury|bikaji|haldiram|itc|aashirvaad|fortune|dark\s*fantasy)/i.test(str);
+    let finalProductName = finalMergedFields.product_name || 'Packaged Commodity Item';
+    
+    // If perSide detected a known brand, ensure it takes precedence
+    if (perSideFields.product_name && isBrand(perSideFields.product_name) && !isBrand(finalProductName)) {
+      finalProductName = perSideFields.product_name;
+      finalMergedFields.product_name = finalProductName;
+    }
+
+    const aggregatedOcrData = {
+      rawText: fullAggregatedRawText,
+      fields: finalMergedFields,
+      boxes: allSideBoxes,
       confidence: overallConfidence,
-      productName: productNameDetected || mergedFields.product_name || 'Packaged Commodity Item',
+      productName: finalProductName,
+      ocrEngine: detectedEngine,
       readability: {
         avgTextHeightPx: 20,
         confidence: overallConfidence,
@@ -97,39 +126,46 @@ async function handleScan(req, res) {
       }
     };
 
-    // 2. Run Compliance Rule Engine on combined multi-side data
-    const inspectionResult = runComplianceInspection(aggregatedOcrResult);
+    // =========================================================================
+    // STEP 3: RUN COMPLIANCE RULE ENGINE ON THE FULL AGGREGATED DATASET
+    // =========================================================================
+    console.log(`[ScanController] Running Compliance Rule Engine on complete aggregated dataset (${Object.keys(finalMergedFields).length} fields, ${allSideBoxes.length} text blocks)...`);
+    const inspectionResult = runComplianceInspection(aggregatedOcrData);
 
-    // 3. Construct Scan record
+    // =========================================================================
+    // STEP 4: CONSTRUCT AND PERSIST INSPECTION RECORD
+    // =========================================================================
     const scanId = `LM-2026-${Math.floor(10000 + Math.random() * 90000)}`;
-    const productName = aggregatedOcrResult.productName;
 
     const newScanRecord = {
       id: scanId,
-      product_name: productName,
+      product_name: finalProductName,
       image_url: imagePaths[0],
       image_urls: imagePaths,
       photo_count: imagePaths.length,
       score: inspectionResult.score,
       status: inspectionResult.overallStatus,
       created_at: new Date().toISOString(),
-      rawText: aggregatedOcrResult.rawText,
-      confidence: aggregatedOcrResult.confidence,
-      fields: aggregatedOcrResult.fields,
-      boxes: aggregatedOcrResult.boxes,
-      readability: aggregatedOcrResult.readability,
+      rawText: aggregatedOcrData.rawText,
+      confidence: aggregatedOcrData.confidence,
+      ocrEngine: detectedEngine,
+      fields: aggregatedOcrData.fields,
+      boxes: aggregatedOcrData.boxes,
+      readability: aggregatedOcrData.readability,
       violations: inspectionResult.violations,
       passedDeclarations: inspectionResult.passedDeclarations,
       stats: inspectionResult.stats
     };
 
-    // 4. Save to Database
     db.addScan(newScanRecord);
+
+    console.log(`[ScanController] Inspection complete for "${finalProductName}": Score = ${inspectionResult.score}%, Status = ${inspectionResult.overallStatus}, Passed = ${inspectionResult.passedDeclarations.length}, Violations = ${inspectionResult.violations.length}`);
 
     return res.status(200).json({
       success: true,
       data: newScanRecord
     });
+
   } catch (error) {
     console.error('Multi-image scan process error:', error);
     return res.status(500).json({
@@ -167,8 +203,21 @@ function getScanById(req, res) {
   }
 }
 
+function getDashboardStats(req, res) {
+  try {
+    const stats = db.getStats();
+    return res.status(200).json({
+      success: true,
+      data: stats
+    });
+  } catch (error) {
+    return res.status(500).json({ success: false, error: error.message });
+  }
+}
+
 module.exports = {
   handleScan,
   getScans,
-  getScanById
+  getScanById,
+  getDashboardStats
 };

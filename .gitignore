@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+*/package-lock.json
+
+# Environment & Logs
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Outputs
+dist/
+build/
+frontend/dist/
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Uploaded image files during testing
+backend/uploads/*.jpeg
+backend/uploads/*.jpg
+backend/uploads/*.png
+!backend/uploads/.gitkeep
+
+# OS generated
+.DS_Store
+Thumbs.db
