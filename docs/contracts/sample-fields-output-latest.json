@@ -1,0 +1,725 @@
+{
+  "product_image": "hajmola.jpeg",
+  "used_preprocessing": false,
+  "ocr": [
+    {
+      "text": "No",
+      "confidence": 0.9638266563415527,
+      "bbox": [
+        1100,
+        169,
+        1140,
+        191
+      ]
+    },
+    {
+      "text": "PWM Reg.",
+      "confidence": 0.8637025356292725,
+      "bbox": [
+        1139,
+        165,
+        1255,
+        192
+      ]
+    },
+    {
+      "text": "-BO-15-000-07-AAACD0474C-22",
+      "confidence": 0.9945477247238159,
+      "bbox": [
+        769,
+        167,
+        1096,
+        205
+      ]
+    },
+    {
+      "text": "1222212782",
+      "confidence": 0.9997817277908325,
+      "bbox": [
+        1100,
+        181,
+        1256,
+        210
+      ]
+    },
+    {
+      "text": "Forname &address of the Mfg.uni, readthrsto",
+      "confidence": 0.714755117893219,
+      "bbox": [
+        603,
+        210,
+        684,
+        802
+      ]
+    },
+    {
+      "text": "Dabur",
+      "confidence": 0.9997856020927429,
+      "bbox": [
+        913,
+        214,
+        954,
+        306
+      ]
+    },
+    {
+      "text": "Ne Natrp Pthampur, Dha, DisDhar(MP)45477",
+      "confidence": 0.7263345718383789,
+      "bbox": [
+        995,
+        224,
+        1052,
+        790
+      ]
+    },
+    {
+      "text": "dabur.com",
+      "confidence": 0.9999100565910339,
+      "bbox": [
+        1147,
+        224,
+        1196,
+        352
+      ]
+    },
+    {
+      "text": "2",
+      "confidence": 0.507445216178894,
+      "bbox": [
+        1217,
+        226,
+        1266,
+        291
+      ]
+    },
+    {
+      "text": "770(0.58/N)",
+      "confidence": 0.8812549114227295,
+      "bbox": [
+        275,
+        252,
+        366,
+        628
+      ]
+    },
+    {
+      "text": "Plot No.-44.45,46,47 & 97, Smart Industrial Park.",
+      "confidence": 0.8875232338905334,
+      "bbox": [
+        965,
+        267,
+        1015,
+        792
+      ]
+    },
+    {
+      "text": "Unit II, Lane No.3, Phase 2, SIDCO Industrial",
+      "confidence": 0.9567915201187134,
+      "bbox": [
+        844,
+        319,
+        898,
+        790
+      ]
+    },
+    {
+      "text": "Complex, Bari Brahmana, Jammu - 181 133",
+      "confidence": 0.9883542060852051,
+      "bbox": [
+        877,
+        329,
+        924,
+        790
+      ]
+    },
+    {
+      "text": "Vilage Manakpur, Tehsil Badd,DisSolan,",
+      "confidence": 0.7320520877838135,
+      "bbox": [
+        727,
+        340,
+        794,
+        796
+      ]
+    },
+    {
+      "text": "characters of the batch no. & see below:",
+      "confidence": 0.9994388818740845,
+      "bbox": [
+        642,
+        351,
+        711,
+        799
+      ]
+    },
+    {
+      "text": "8/3, Asaf Ali Road, New Delhi - 110 002",
+      "confidence": 0.9682473540306091,
+      "bbox": [
+        1093,
+        376,
+        1138,
+        786
+      ]
+    },
+    {
+      "text": "TABLETS",
+      "confidence": 0.9745109677314758,
+      "bbox": [
+        1189,
+        392,
+        1246,
+        518
+      ]
+    },
+    {
+      "text": "JK00586",
+      "confidence": 0.9992125630378723,
+      "bbox": [
+        342,
+        409,
+        415,
+        632
+      ]
+    },
+    {
+      "text": "Regd. Office & Consumer Cell:",
+      "confidence": 0.9893539547920227,
+      "bbox": [
+        1064,
+        460,
+        1105,
+        785
+      ]
+    },
+    {
+      "text": "Toll Free Number 1800 103 1644",
+      "confidence": 0.9988877177238464,
+      "bbox": [
+        1162,
+        454,
+        1200,
+        778
+      ]
+    },
+    {
+      "text": "02/20",
+      "confidence": 0.9963020086288452,
+      "bbox": [
+        395,
+        461,
+        470,
+        635
+      ]
+    },
+    {
+      "text": "01/20",
+      "confidence": 0.9932211637496948,
+      "bbox": [
+        447,
+        464,
+        516,
+        635
+      ]
+    },
+    {
+      "text": "Manufactured In India By:",
+      "confidence": 0.9994447231292725,
+      "bbox": [
+        689,
+        523,
+        736,
+        797
+      ]
+    },
+    {
+      "text": "Himachal Pradesh - 174101",
+      "confidence": 0.9760674238204956,
+      "bbox": [
+        771,
+        517,
+        815,
+        793
+      ]
+    },
+    {
+      "text": "(BM) Dabur India Ltd.,",
+      "confidence": 0.9846172332763672,
+      "bbox": [
+        722,
+        568,
+        761,
+        792
+      ]
+    },
+    {
+      "text": "(JK) Dabur India Ltd.,",
+      "confidence": 0.9936563372612,
+      "bbox": [
+        827,
+        570,
+        868,
+        790
+      ]
+    },
+    {
+      "text": "M.L.JK/AY-UN/04/16",
+      "confidence": 0.981133759021759,
+      "bbox": [
+        911,
+        570,
+        950,
+        788
+      ]
+    },
+    {
+      "text": "M.L.MP/25D/21/912",
+      "confidence": 0.9962954521179199,
+      "bbox": [
+        1031,
+        572,
+        1072,
+        786
+      ]
+    },
+    {
+      "text": "(ID) Dabur India Ltd.",
+      "confidence": 0.9984942674636841,
+      "bbox": [
+        944,
+        586,
+        981,
+        787
+      ]
+    },
+    {
+      "text": "M.L.HP-183-AY",
+      "confidence": 0.9782066345214844,
+      "bbox": [
+        802,
+        607,
+        840,
+        791
+      ]
+    },
+    {
+      "text": "NETQUANTITY:",
+      "confidence": 0.9997187256813049,
+      "bbox": [
+        1194,
+        625,
+        1236,
+        780
+      ]
+    }
+  ],
+  "fields": {
+    "product_name": "No",
+    "manufacturer": null,
+    "address": "Himachal Pradesh - 174101",
+    "country_of_origin": null,
+    "net_quantity": null,
+    "manufacturing_date": null,
+    "unit_price": null,
+    "best_before": null,
+    "mrp": null,
+    "consumer_care": null,
+    "batch_no": null,
+    "fssai_no": null,
+    "ingredients": "PWM Reg."
+  },
+  "readability": {
+    "blocks": [
+      {
+        "text": "No",
+        "confidence": 0.9638266563415527,
+        "bbox": [
+          1100,
+          169,
+          1140,
+          191
+        ],
+        "height_px": 22,
+        "readability": "ok"
+      },
+      {
+        "text": "PWM Reg.",
+        "confidence": 0.8637025356292725,
+        "bbox": [
+          1139,
+          165,
+          1255,
+          192
+        ],
+        "height_px": 27,
+        "readability": "ok"
+      },
+      {
+        "text": "-BO-15-000-07-AAACD0474C-22",
+        "confidence": 0.9945477247238159,
+        "bbox": [
+          769,
+          167,
+          1096,
+          205
+        ],
+        "height_px": 38,
+        "readability": "ok"
+      },
+      {
+        "text": "1222212782",
+        "confidence": 0.9997817277908325,
+        "bbox": [
+          1100,
+          181,
+          1256,
+          210
+        ],
+        "height_px": 29,
+        "readability": "ok"
+      },
+      {
+        "text": "Forname &address of the Mfg.uni, readthrsto",
+        "confidence": 0.714755117893219,
+        "bbox": [
+          603,
+          210,
+          684,
+          802
+        ],
+        "height_px": 592,
+        "readability": "ok"
+      },
+      {
+        "text": "Dabur",
+        "confidence": 0.9997856020927429,
+        "bbox": [
+          913,
+          214,
+          954,
+          306
+        ],
+        "height_px": 92,
+        "readability": "ok"
+      },
+      {
+        "text": "Ne Natrp Pthampur, Dha, DisDhar(MP)45477",
+        "confidence": 0.7263345718383789,
+        "bbox": [
+          995,
+          224,
+          1052,
+          790
+        ],
+        "height_px": 566,
+        "readability": "ok"
+      },
+      {
+        "text": "dabur.com",
+        "confidence": 0.9999100565910339,
+        "bbox": [
+          1147,
+          224,
+          1196,
+          352
+        ],
+        "height_px": 128,
+        "readability": "ok"
+      },
+      {
+        "text": "2",
+        "confidence": 0.507445216178894,
+        "bbox": [
+          1217,
+          226,
+          1266,
+          291
+        ],
+        "height_px": 65,
+        "readability": "low_readability",
+        "reason": "OCR confidence 0.51 below threshold 0.6"
+      },
+      {
+        "text": "770(0.58/N)",
+        "confidence": 0.8812549114227295,
+        "bbox": [
+          275,
+          252,
+          366,
+          628
+        ],
+        "height_px": 376,
+        "readability": "ok"
+      },
+      {
+        "text": "Plot No.-44.45,46,47 & 97, Smart Industrial Park.",
+        "confidence": 0.8875232338905334,
+        "bbox": [
+          965,
+          267,
+          1015,
+          792
+        ],
+        "height_px": 525,
+        "readability": "ok"
+      },
+      {
+        "text": "Unit II, Lane No.3, Phase 2, SIDCO Industrial",
+        "confidence": 0.9567915201187134,
+        "bbox": [
+          844,
+          319,
+          898,
+          790
+        ],
+        "height_px": 471,
+        "readability": "ok"
+      },
+      {
+        "text": "Complex, Bari Brahmana, Jammu - 181 133",
+        "confidence": 0.9883542060852051,
+        "bbox": [
+          877,
+          329,
+          924,
+          790
+        ],
+        "height_px": 461,
+        "readability": "ok"
+      },
+      {
+        "text": "Vilage Manakpur, Tehsil Badd,DisSolan,",
+        "confidence": 0.7320520877838135,
+        "bbox": [
+          727,
+          340,
+          794,
+          796
+        ],
+        "height_px": 456,
+        "readability": "ok"
+      },
+      {
+        "text": "characters of the batch no. & see below:",
+        "confidence": 0.9994388818740845,
+        "bbox": [
+          642,
+          351,
+          711,
+          799
+        ],
+        "height_px": 448,
+        "readability": "ok"
+      },
+      {
+        "text": "8/3, Asaf Ali Road, New Delhi - 110 002",
+        "confidence": 0.9682473540306091,
+        "bbox": [
+          1093,
+          376,
+          1138,
+          786
+        ],
+        "height_px": 410,
+        "readability": "ok"
+      },
+      {
+        "text": "TABLETS",
+        "confidence": 0.9745109677314758,
+        "bbox": [
+          1189,
+          392,
+          1246,
+          518
+        ],
+        "height_px": 126,
+        "readability": "ok"
+      },
+      {
+        "text": "JK00586",
+        "confidence": 0.9992125630378723,
+        "bbox": [
+          342,
+          409,
+          415,
+          632
+        ],
+        "height_px": 223,
+        "readability": "ok"
+      },
+      {
+        "text": "Regd. Office & Consumer Cell:",
+        "confidence": 0.9893539547920227,
+        "bbox": [
+          1064,
+          460,
+          1105,
+          785
+        ],
+        "height_px": 325,
+        "readability": "ok"
+      },
+      {
+        "text": "Toll Free Number 1800 103 1644",
+        "confidence": 0.9988877177238464,
+        "bbox": [
+          1162,
+          454,
+          1200,
+          778
+        ],
+        "height_px": 324,
+        "readability": "ok"
+      },
+      {
+        "text": "02/20",
+        "confidence": 0.9963020086288452,
+        "bbox": [
+          395,
+          461,
+          470,
+          635
+        ],
+        "height_px": 174,
+        "readability": "ok"
+      },
+      {
+        "text": "01/20",
+        "confidence": 0.9932211637496948,
+        "bbox": [
+          447,
+          464,
+          516,
+          635
+        ],
+        "height_px": 171,
+        "readability": "ok"
+      },
+      {
+        "text": "Manufactured In India By:",
+        "confidence": 0.9994447231292725,
+        "bbox": [
+          689,
+          523,
+          736,
+          797
+        ],
+        "height_px": 274,
+        "readability": "ok"
+      },
+      {
+        "text": "Himachal Pradesh - 174101",
+        "confidence": 0.9760674238204956,
+        "bbox": [
+          771,
+          517,
+          815,
+          793
+        ],
+        "height_px": 276,
+        "readability": "ok"
+      },
+      {
+        "text": "(BM) Dabur India Ltd.,",
+        "confidence": 0.9846172332763672,
+        "bbox": [
+          722,
+          568,
+          761,
+          792
+        ],
+        "height_px": 224,
+        "readability": "ok"
+      },
+      {
+        "text": "(JK) Dabur India Ltd.,",
+        "confidence": 0.9936563372612,
+        "bbox": [
+          827,
+          570,
+          868,
+          790
+        ],
+        "height_px": 220,
+        "readability": "ok"
+      },
+      {
+        "text": "M.L.JK/AY-UN/04/16",
+        "confidence": 0.981133759021759,
+        "bbox": [
+          911,
+          570,
+          950,
+          788
+        ],
+        "height_px": 218,
+        "readability": "ok"
+      },
+      {
+        "text": "M.L.MP/25D/21/912",
+        "confidence": 0.9962954521179199,
+        "bbox": [
+          1031,
+          572,
+          1072,
+          786
+        ],
+        "height_px": 214,
+        "readability": "ok"
+      },
+      {
+        "text": "(ID) Dabur India Ltd.",
+        "confidence": 0.9984942674636841,
+        "bbox": [
+          944,
+          586,
+          981,
+          787
+        ],
+        "height_px": 201,
+        "readability": "ok"
+      },
+      {
+        "text": "M.L.HP-183-AY",
+        "confidence": 0.9782066345214844,
+        "bbox": [
+          802,
+          607,
+          840,
+          791
+        ],
+        "height_px": 184,
+        "readability": "ok"
+      },
+      {
+        "text": "NETQUANTITY:",
+        "confidence": 0.9997187256813049,
+        "bbox": [
+          1194,
+          625,
+          1236,
+          780
+        ],
+        "height_px": 155,
+        "readability": "ok"
+      }
+    ],
+    "total_blocks": 31,
+    "flagged_count": 1,
+    "flagged_blocks": [
+      {
+        "text": "2",
+        "confidence": 0.507445216178894,
+        "bbox": [
+          1217,
+          226,
+          1266,
+          291
+        ],
+        "height_px": 65,
+        "readability": "low_readability",
+        "reason": "OCR confidence 0.51 below threshold 0.6"
+      }
+    ]
+  }
+}
