@@ -1,0 +1,134 @@
+[
+  {
+    "id": "LM-001",
+    "field": "manufacturer",
+    "name": "Manufacturer/Packer/Importer Details",
+    "description": "Name and complete address of the manufacturer, packer or importer must be clearly declared.",
+    "required": true,
+    "applicability": "general",
+    "severity": "HIGH",
+    "source": "Rule 6(1)(a)"
+  },
+  {
+    "id": "LM-002",
+    "field": "product_name",
+    "name": "Common/Generic Name",
+    "description": "The common or generic name of the packaged commodity must be declared on the principal display panel.",
+    "required": true,
+    "applicability": "general",
+    "severity": "HIGH",
+    "source": "Rule 6(1)(b)"
+  },
+  {
+    "id": "LM-003",
+    "field": "net_quantity",
+    "name": "Net Quantity Declaration",
+    "description": "Net quantity in standard SI units (g, kg, ml, L, N) must be declared without ambiguous suffixes.",
+    "required": true,
+    "applicability": "general",
+    "severity": "HIGH",
+    "source": "Rule 6(1)(c)"
+  },
+  {
+    "id": "LM-004",
+    "field": "mrp",
+    "name": "Maximum Retail Price (MRP)",
+    "description": "Maximum Retail Price inclusive of all taxes must be declared in mandatory prescribed wording.",
+    "required": true,
+    "applicability": "general",
+    "severity": "HIGH",
+    "source": "Rule 6(1)(e)"
+  },
+  {
+    "id": "LM-005",
+    "field": "manufacturing_date",
+    "name": "Manufacture/Packing/Import Date",
+    "description": "Month and year of manufacture, packing, or import (MM/YYYY or Month YYYY) must be clearly stated.",
+    "required": true,
+    "applicability": "general",
+    "severity": "MEDIUM",
+    "source": "Rule 6(1)(d)"
+  },
+  {
+    "id": "LM-006",
+    "field": "consumer_care",
+    "name": "Consumer Care Details",
+    "description": "Name, address, telephone number, and email address of person/office for consumer complaints.",
+    "required": true,
+    "applicability": "general",
+    "severity": "HIGH",
+    "source": "Rule 6(2)"
+  },
+  {
+    "id": "LM-007",
+    "field": "country_of_origin",
+    "name": "Country of Origin",
+    "description": "Country of origin must be declared for imported products or manufactured items.",
+    "required": true,
+    "applicability": "general",
+    "severity": "HIGH",
+    "source": "Rule 6(1)(aa)"
+  },
+  {
+    "id": "LM-008",
+    "field": "best_before",
+    "name": "Best Before / Use By",
+    "description": "Best before or use by date must be declared for food, perishables, and consumable commodities.",
+    "required": false,
+    "applicability": "consumable",
+    "severity": "MEDIUM",
+    "source": "Rule 6(1)(d)"
+  },
+  {
+    "id": "LM-009",
+    "field": "unit_sale_price",
+    "name": "Unit Sale Price",
+    "description": "Unit sale price must be declared (e.g., ₹/g, ₹/kg, ₹/ml, ₹/unit) for package containing >1 unit/g.",
+    "required": true,
+    "applicability": "general",
+    "severity": "MEDIUM",
+    "source": "Rule 6(1)(11)"
+  },
+  {
+    "id": "LM-010",
+    "field": "dimensions",
+    "name": "Dimensions Declaration",
+    "description": "Dimensions of the commodity must be declared where size/area is relevant to standard measurement.",
+    "required": false,
+    "applicability": "size_relevant",
+    "severity": "LOW",
+    "source": "Rule 6(1)(f)"
+  },
+  {
+    "id": "LM-011",
+    "field": "mrp_format",
+    "name": "MRP Standard Formatting",
+    "description": "Price must strictly state 'MRP ₹... (incl. of all taxes)' or 'MRP Rs ... (inclusive of all taxes)'.",
+    "required": true,
+    "applicability": "general",
+    "severity": "MEDIUM",
+    "source": "Rule 6(1)(e)",
+    "validation_type": "format"
+  },
+  {
+    "id": "LM-012",
+    "field": "font_readability",
+    "name": "Image-Based Font & Readability Screening",
+    "description": "Mandatory declarations must satisfy minimum letter height standards (Rule 7) and be legible/prominent (Rule 9).",
+    "required": true,
+    "applicability": "general",
+    "severity": "MEDIUM",
+    "source": "Rule 7 & Rule 9",
+    "validation_type": "readability"
+  },
+  {
+    "id": "LM-013",
+    "field": "ecommerce_origin_filter",
+    "name": "2026 Amendment: Country-of-Origin Declaration",
+    "description": "As per Feb 2026 amendment effective July 1, 2026, product listings and packaging must have searchable/prominent origin tags.",
+    "required": false,
+    "applicability": "2026_amendment",
+    "severity": "LOW",
+    "source": "Rule 6 (Feb 2026 Amendment)"
+  }
+]

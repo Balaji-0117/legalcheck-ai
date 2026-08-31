@@ -1,0 +1,31 @@
+{
+  "sampleId": "03_missing_unit_sale_price",
+  "productName": "Sunrise Premium Whole Wheat Atta",
+  "rawText": "SUNRISE PREMIUM WHOLE WHEAT ATTA\nMfg by: Sunrise Agro Foods Pvt Ltd, Guntur, Andhra Pradesh 522002\nNet Weight: 5 kg\nMRP ₹280.00 incl. of all taxes\nPKD 05/2026\nBest Before 4 Months from packing\nConsumer Helpline: 1800-112-9900\nCountry of Origin: India",
+  "confidence": 0.95,
+  "fields": {
+    "product_name": "Sunrise Premium Whole Wheat Atta",
+    "manufacturer": "Sunrise Agro Foods Pvt Ltd, Guntur, Andhra Pradesh 522002",
+    "net_quantity": "5 kg",
+    "mrp": "MRP ₹280.00 incl. of all taxes",
+    "manufacturing_date": "PKD 05/2026",
+    "best_before": "Best Before 4 Months from packing",
+    "consumer_care": "Consumer Helpline: 1800-112-9900",
+    "country_of_origin": "Country of Origin: India",
+    "unit_sale_price": null
+  },
+  "boxes": [
+    { "field": "product_name", "text": "SUNRISE PREMIUM WHOLE WHEAT ATTA", "bbox": [40, 30, 480, 60], "confidence": 0.97 },
+    { "field": "manufacturer", "text": "Mfg by: Sunrise Agro Foods Pvt Ltd, Guntur", "bbox": [40, 100, 490, 45], "confidence": 0.94 },
+    { "field": "net_quantity", "text": "Net Weight: 5 kg", "bbox": [40, 160, 180, 35], "confidence": 0.96 },
+    { "field": "mrp", "text": "MRP ₹280.00 incl. of all taxes", "bbox": [240, 160, 260, 35], "confidence": 0.98 },
+    { "field": "manufacturing_date", "text": "PKD 05/2026", "bbox": [40, 210, 160, 30], "confidence": 0.94 },
+    { "field": "consumer_care", "text": "Consumer Helpline: 1800-112-9900", "bbox": [40, 250, 340, 35], "confidence": 0.95 },
+    { "field": "country_of_origin", "text": "Country of Origin: India", "bbox": [40, 300, 230, 30], "confidence": 0.96 }
+  ],
+  "readability": {
+    "avgTextHeightPx": 24,
+    "confidence": 0.95,
+    "lowContrast": false
+  }
+}

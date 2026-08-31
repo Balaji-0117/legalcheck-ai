@@ -1,0 +1,33 @@
+{
+  "sampleId": "01_compliant_biscuits",
+  "productName": "Britannica Crunchy Cream Biscuits",
+  "rawText": "BRITANNICA CRUNCHY CREAM BISCUITS\nMfg by: Britannica Foods Pvt Ltd, Plot 42, Industrial Area, Hyderabad 500032\nNet Quantity: 100 g\nMRP ₹50.00 (incl. of all taxes)\nMFD 06/2026\nBest Before 6 Months from packaging\nConsumer Care: 1800-425-1111 / care@britannica.com\nCountry of Origin: India\nUnit Sale Price: ₹0.50/g",
+  "confidence": 0.96,
+  "fields": {
+    "product_name": "Britannica Crunchy Cream Biscuits",
+    "manufacturer": "Britannica Foods Pvt Ltd, Plot 42, Industrial Area, Hyderabad 500032",
+    "net_quantity": "100 g",
+    "mrp": "MRP ₹50.00 (incl. of all taxes)",
+    "manufacturing_date": "MFD 06/2026",
+    "best_before": "Best Before 6 Months from packaging",
+    "consumer_care": "1800-425-1111 / care@britannica.com",
+    "country_of_origin": "Country of Origin: India",
+    "unit_sale_price": "Unit Sale Price: ₹0.50/g"
+  },
+  "boxes": [
+    { "field": "product_name", "text": "BRITANNICA CRUNCHY CREAM BISCUITS", "bbox": [50, 40, 420, 60], "confidence": 0.98 },
+    { "field": "manufacturer", "text": "Mfg by: Britannica Foods Pvt Ltd, Plot 42, Industrial Area, Hyderabad 500032", "bbox": [50, 120, 500, 45], "confidence": 0.95 },
+    { "field": "net_quantity", "text": "Net Quantity: 100 g", "bbox": [50, 180, 220, 35], "confidence": 0.97 },
+    { "field": "mrp", "text": "MRP ₹50.00 (incl. of all taxes)", "bbox": [300, 180, 260, 35], "confidence": 0.98 },
+    { "field": "manufacturing_date", "text": "MFD 06/2026", "bbox": [50, 230, 180, 30], "confidence": 0.96 },
+    { "field": "best_before", "text": "Best Before 6 Months", "bbox": [250, 230, 200, 30], "confidence": 0.94 },
+    { "field": "consumer_care", "text": "Consumer Care: 1800-425-1111", "bbox": [50, 280, 400, 35], "confidence": 0.95 },
+    { "field": "country_of_origin", "text": "Country of Origin: India", "bbox": [50, 330, 240, 30], "confidence": 0.96 },
+    { "field": "unit_sale_price", "text": "Unit Sale Price: ₹0.50/g", "bbox": [310, 330, 220, 30], "confidence": 0.95 }
+  ],
+  "readability": {
+    "avgTextHeightPx": 22,
+    "confidence": 0.96,
+    "lowContrast": false
+  }
+}

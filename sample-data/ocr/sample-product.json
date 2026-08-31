@@ -1,0 +1,13 @@
+{
+  "product_name": "ABC Premium Biscuits",
+  "manufacturer": "ABC Foods Pvt Ltd, Hyderabad, India",
+  "net_quantity": "100 g",
+  "mrp": "MRP ₹50 Inclusive of all taxes",
+  "manufacturing_date": "MFD 06/2026",
+  "consumer_care": "1800-123-4567",
+  "country_of_origin": "India",
+  "best_before": "Best Before 6 Months",
+  "unit_sale_price": "₹0.50 per g",
+  "dimensions": null,
+  "readability": true
+}

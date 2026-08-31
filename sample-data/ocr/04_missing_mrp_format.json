@@ -1,0 +1,29 @@
+{
+  "sampleId": "04_missing_mrp_format",
+  "productName": "Sparkle Ultra Detergent Powder",
+  "rawText": "SPARKLE ULTRA DETERGENT POWDER\nMfg by: Sparkle Home Care Ltd, Plot 18, MIDC, Mumbai 400093\nNet Qty: 1 kg\nPrice ₹120\nMFD 03/2026\nMade in India\nUnit Sale Price: ₹120/kg",
+  "confidence": 0.89,
+  "fields": {
+    "product_name": "Sparkle Ultra Detergent Powder",
+    "manufacturer": "Sparkle Home Care Ltd, Plot 18, MIDC, Mumbai 400093",
+    "net_quantity": "1 kg",
+    "mrp": "Price ₹120",
+    "manufacturing_date": "MFD 03/2026",
+    "consumer_care": null,
+    "country_of_origin": "Made in India",
+    "unit_sale_price": "Unit Sale Price: ₹120/kg"
+  },
+  "boxes": [
+    { "field": "product_name", "text": "SPARKLE ULTRA DETERGENT POWDER", "bbox": [50, 40, 420, 50], "confidence": 0.92 },
+    { "field": "manufacturer", "text": "Mfg by: Sparkle Home Care Ltd, Mumbai", "bbox": [50, 100, 440, 40], "confidence": 0.88 },
+    { "field": "net_quantity", "text": "Net Qty: 1 kg", "bbox": [50, 150, 160, 30], "confidence": 0.90 },
+    { "field": "mrp", "text": "Price ₹120", "bbox": [230, 150, 150, 30], "confidence": 0.89 },
+    { "field": "manufacturing_date", "text": "MFD 03/2026", "bbox": [50, 190, 150, 30], "confidence": 0.88 },
+    { "field": "country_of_origin", "text": "Made in India", "bbox": [50, 230, 160, 30], "confidence": 0.91 }
+  ],
+  "readability": {
+    "avgTextHeightPx": 18,
+    "confidence": 0.89,
+    "lowContrast": false
+  }
+}
