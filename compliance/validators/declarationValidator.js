@@ -6,7 +6,7 @@
 const VALIDATION_PATTERNS = {
   net_quantity: /\b(\d+(?:\.\d+)?)\s*(g|gm|gram|grams|kg|ml|l|liter|litres|pcs|units|n)\b/i,
   mrp_standard: /(?:mrp|retail\s*price|price)\s*[:\.]?\s*(?:₹|rs\.?|inr)?\s*(\d+(?:\.\d+)?)/i,
-  mrp_taxes: /(?:incl|inclusive)\s*(?:of)?\s*all\s*tax(?:es)?/i,
+  mrp_taxes: /(?:incl\.?|inclusive)\s*(?:of)?\s*all\s*tax(?:es)?/i,
   mfd_date: /(?:mfd|pkd|mfg|packed|imported|date)\s*[:\.]?\s*(\d{2}[/\-\.]\d{4}|\d{2}[/\-\.]\d{2}|[a-z]{3}\s*\d{4})/i,
   consumer_care_contact: /(?:1800[-\s]?\d+|[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|\bcare\b|\bcall\b|\bemail\b|\bhelpline\b|\bphone\b)/i,
   unit_sale_price: /(?:unit\s*(?:sale)?\s*price|usp)\s*[:\.]?\s*(?:₹|rs\.?)\s*\d+(?:\.\d+)?\s*\/\s*(?:g|kg|ml|l|unit|n|pc)/i,

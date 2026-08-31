@@ -17,17 +17,19 @@
     },
     {
       "sideLabel": "Photo 2 (Back Panel / MRP & MFD)",
-      "rawText": "MRP ₹340.00 (incl. of all taxes)\nMFD 08/2026\nBest Before 12 Months from Packaging\nUnit Sale Price: ₹0.68/g",
+      "rawText": "MRP ₹340.00 (incl. of all taxes)\nMFD 08/2026\nBest Before 12 Months from Packaging\nUnit Sale Price: ₹0.68/g\nDimensions: 20 cm x 12 cm x 8 cm",
       "fields": {
         "mrp": "MRP ₹340.00 (incl. of all taxes)",
         "manufacturing_date": "MFD 08/2026",
         "best_before": "Best Before 12 Months",
-        "unit_sale_price": "Unit Sale Price: ₹0.68/g"
+        "unit_sale_price": "Unit Sale Price: ₹0.68/g",
+        "dimensions": "20 cm x 12 cm x 8 cm"
       },
       "boxes": [
         { "field": "mrp", "text": "[Photo 2 (Back)] MRP ₹340.00 (incl. of all taxes)", "bbox": [40, 150, 280, 35], "confidence": 0.98 },
         { "field": "manufacturing_date", "text": "[Photo 2 (Back)] MFD 08/2026", "bbox": [40, 195, 180, 30], "confidence": 0.97 },
-        { "field": "unit_sale_price", "text": "[Photo 2 (Back)] Unit Sale Price: ₹0.68/g", "bbox": [40, 235, 230, 30], "confidence": 0.95 }
+        { "field": "unit_sale_price", "text": "[Photo 2 (Back)] Unit Sale Price: ₹0.68/g", "bbox": [40, 235, 230, 30], "confidence": 0.95 },
+        { "field": "dimensions", "text": "[Photo 2 (Back)] Dimensions: 20 cm x 12 cm x 8 cm", "bbox": [40, 270, 260, 30], "confidence": 0.95 }
       ]
     },
     {
@@ -35,7 +37,7 @@
       "rawText": "Mfg by: Tata Consumer Products Ltd, 1 Bishop Lefroy Road, Kolkata 700020\nCountry of Origin: India\nConsumer Care: 1800-209-5000 / care@tataconsumer.com",
       "fields": {
         "manufacturer": "Tata Consumer Products Ltd, 1 Bishop Lefroy Road, Kolkata 700020",
-        "country_of_origin": "India",
+        "country_of_origin": "Country of Origin: India",
         "consumer_care": "1800-209-5000 / care@tataconsumer.com"
       },
       "boxes": [
@@ -45,8 +47,8 @@
       ]
     }
   ],
-  "rawText": "--- [PHOTO 1 (FRONT SIDE)] ---\nTATA SAMPANN PREMIUM ORGANIC TEA\n100% Pure Assam Whole Leaf Tea\nNet Quantity: 500 g\n\n--- [PHOTO 2 (BACK PANEL / MRP & MFD)] ---\nMRP ₹340.00 (incl. of all taxes)\nMFD 08/2026\nBest Before 12 Months from Packaging\nUnit Sale Price: ₹0.68/g\n\n--- [PHOTO 3 (SIDE PANEL / MANUFACTURER & HELPLINE)] ---\nMfg by: Tata Consumer Products Ltd, 1 Bishop Lefroy Road, Kolkata 700020\nCountry of Origin: India\nConsumer Care: 1800-209-5000 / care@tataconsumer.com",
-  "confidence": 0.96,
+  "rawText": "--- [PHOTO 1 (FRONT SIDE)] ---\nTATA SAMPANN PREMIUM ORGANIC TEA\n100% Pure Assam Whole Leaf Tea\nNet Quantity: 500 g\n\n--- [PHOTO 2 (BACK PANEL / MRP & MFD)] ---\nMRP ₹340.00 (incl. of all taxes)\nMFD 08/2026\nBest Before 12 Months from Packaging\nUnit Sale Price: ₹0.68/g\nDimensions: 20 cm x 12 cm x 8 cm\n\n--- [PHOTO 3 (SIDE PANEL / MANUFACTURER & HELPLINE)] ---\nMfg by: Tata Consumer Products Ltd, 1 Bishop Lefroy Road, Kolkata 700020\nCountry of Origin: India\nConsumer Care: 1800-209-5000 / care@tataconsumer.com",
+  "confidence": 0.98,
   "fields": {
     "product_name": "Tata Sampann Premium Organic Tea",
     "net_quantity": "500 g",
@@ -55,8 +57,9 @@
     "best_before": "Best Before 12 Months",
     "unit_sale_price": "Unit Sale Price: ₹0.68/g",
     "manufacturer": "Tata Consumer Products Ltd, 1 Bishop Lefroy Road, Kolkata 700020",
-    "country_of_origin": "India",
-    "consumer_care": "1800-209-5000 / care@tataconsumer.com"
+    "country_of_origin": "Country of Origin: India",
+    "consumer_care": "1800-209-5000 / care@tataconsumer.com",
+    "dimensions": "20 cm x 12 cm x 8 cm"
   },
   "boxes": [
     { "field": "product_name", "text": "[Photo 1 (Front)] TATA SAMPANN PREMIUM ORGANIC TEA", "bbox": [40, 40, 400, 50], "confidence": 0.97, "side": "Photo 1" },
@@ -64,13 +67,14 @@
     { "field": "mrp", "text": "[Photo 2 (Back)] MRP ₹340.00 (incl. of all taxes)", "bbox": [40, 150, 280, 35], "confidence": 0.98, "side": "Photo 2" },
     { "field": "manufacturing_date", "text": "[Photo 2 (Back)] MFD 08/2026", "bbox": [40, 195, 180, 30], "confidence": 0.97, "side": "Photo 2" },
     { "field": "unit_sale_price", "text": "[Photo 2 (Back)] Unit Sale Price: ₹0.68/g", "bbox": [40, 235, 230, 30], "confidence": 0.95, "side": "Photo 2" },
+    { "field": "dimensions", "text": "[Photo 2 (Back)] Dimensions: 20 cm x 12 cm x 8 cm", "bbox": [40, 270, 260, 30], "confidence": 0.95, "side": "Photo 2" },
     { "field": "manufacturer", "text": "[Photo 3 (Side)] Mfg by: Tata Consumer Products Ltd, Kolkata 700020", "bbox": [40, 275, 450, 35], "confidence": 0.96, "side": "Photo 3" },
     { "field": "country_of_origin", "text": "[Photo 3 (Side)] Country of Origin: India", "bbox": [40, 320, 240, 30], "confidence": 0.98, "side": "Photo 3" },
     { "field": "consumer_care", "text": "[Photo 3 (Side)] Consumer Care: 1800-209-5000 / care@tataconsumer.com", "bbox": [40, 360, 420, 35], "confidence": 0.97, "side": "Photo 3" }
   ],
   "readability": {
     "avgTextHeightPx": 24,
-    "confidence": 0.96,
+    "confidence": 0.98,
     "lowContrast": false
   }
 }

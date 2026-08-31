@@ -89,7 +89,7 @@ function extractDeclarations(rawText, rawBoxes = [], originalFilename = '') {
 
   // 2. MRP
   const mrpMatch =
-    text.match(/(?:mrp|retail\s*price|max\s*retail\s*price|price)\s*[:\.]?\s*(?:₹|rs\.?|inr)?\s*(\d+(?:\.\d+)?(?:\s*(?:incl|inclusive)[^,\n.]*)?)/i) ||
+    text.match(/(?:mrp|retail\s*price|max\s*retail\s*price|price)\s*[:\.]?\s*(?:₹|rs\.?|inr)?\s*(\d+(?:\.\d+)?(?:\s*\((?:incl\.?|inclusive)[^)]+\)|\s*(?:incl\.?|inclusive)[^\n,]+)?)/i) ||
     text.match(/(?:₹|rs\.?)\s*(\d+(?:\.\d+)?)/i);
   if (mrpMatch) {
     fields.mrp = cleanNoise(mrpMatch[0]);
@@ -160,6 +160,13 @@ function extractDeclarations(rawText, rawBoxes = [], originalFilename = '') {
   const ingMatch = text.match(/(?:ingredients|contains|palm\s*oil|flour)\s*[:\.]?\s*([^\n]+)/i);
   if (ingMatch) {
     fields.ingredients = cleanNoise(ingMatch[0]);
+  }
+
+  // 12. Dimensions Declaration
+  const dimMatch = text.match(/(?:dimensions?|size)\s*[:\.]?\s*(\d+(?:\.\d+)?\s*(?:cm|mm|m|inch)\s*x\s*\d+(?:\.\d+)?(?:\s*(?:cm|mm|m|inch))?(?:\s*x\s*\d+(?:\.\d+)?\s*(?:cm|mm|m|inch))?)/i) ||
+    text.match(/(\d+(?:\.\d+)?\s*(?:cm|mm|m|inch)\s*x\s*\d+(?:\.\d+)?(?:\s*(?:cm|mm|m|inch))?(?:\s*x\s*\d+(?:\.\d+)?\s*(?:cm|mm|m|inch))?)/i);
+  if (dimMatch) {
+    fields.dimensions = cleanNoise(dimMatch[0]);
   }
 
   // Auto-generate bounding boxes for visual overlay if not provided
