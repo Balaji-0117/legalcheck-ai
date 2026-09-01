@@ -9,9 +9,9 @@ import os
 import json
 import warnings
 
-# Suppress warnings
 warnings.filterwarnings("ignore")
 os.environ["PYTHONWARNINGS"] = "ignore"
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -47,7 +47,7 @@ def run_ocr(image_path):
         if engine is None:
             return {
                 "success": False,
-                "error": "RapidOCR/PaddleOCR engine could not be initialized",
+                "error": "RapidOCR/PaddleOCR engine could not be initialized on host",
                 "rawText": "",
                 "confidence": 0.0,
                 "boxes": []
@@ -116,5 +116,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     image_path = sys.argv[1]
-    res = run_ocr(image_path)
-    print(json.dumps(res, ensure_ascii=False))
+    try:
+        res = run_ocr(image_path)
+        print(json.dumps(res, ensure_ascii=False))
+    except Exception as exc:
+        print(json.dumps({"success": False, "error": str(exc), "rawText": "", "confidence": 0.0, "boxes": []}))

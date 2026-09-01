@@ -1,7 +1,6 @@
 """
 EasyOCR Runner Module for LegalCheck AI
 Extracts text, bounding boxes, and confidence scores using PyTorch-backed EasyOCR.
-Warnings are suppressed to keep stdout clean for JSON parsing by Node.js.
 """
 
 import sys
@@ -9,29 +8,23 @@ import os
 import json
 import warnings
 
-# CRITICAL: Suppress ALL warnings before any imports (prevents stdout pollution)
 warnings.filterwarnings("ignore")
 os.environ["PYTHONWARNINGS"] = "ignore"
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
-# Redirect stderr to devnull to prevent PyTorch deprecation warnings from polluting stdout
-import io
-_devnull = open(os.devnull, 'w', encoding='utf-8')
-
-# Force UTF-8 on stdout
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-# Redirect stderr to suppress PyTorch/EasyOCR warnings
-sys.stderr = _devnull
-
-# Global EasyOCR Reader instance
 _reader = None
 
 def get_reader():
     global _reader
     if _reader is None:
-        import easyocr
-        _reader = easyocr.Reader(['en'], gpu=False, verbose=False)
+        try:
+            import easyocr
+            _reader = easyocr.Reader(['en'], gpu=False, verbose=False)
+        except Exception as e:
+            _reader = None
     return _reader
 
 def run_ocr(image_path):
@@ -44,52 +37,70 @@ def run_ocr(image_path):
             "boxes": []
         }
 
-    reader = get_reader()
-    results = reader.readtext(image_path, canvas_size=1024)
+    try:
+        reader = get_reader()
+        if reader is None:
+            return {
+                "success": False,
+                "error": "EasyOCR could not be initialized",
+                "rawText": "",
+                "confidence": 0.0,
+                "boxes": []
+            }
 
-    raw_text_lines = []
-    boxes = []
-    total_conf = 0.0
-    count = 0
+        results = reader.readtext(image_path, canvas_size=1024)
 
-    for res in results:
-        bbox_poly, text, conf = res
-        text_str = str(text).strip()
-        if not text_str:
-            continue
+        raw_text_lines = []
+        boxes = []
+        total_conf = 0.0
+        count = 0
 
-        raw_text_lines.append(text_str)
-        total_conf += float(conf)
-        count += 1
+        for res in results:
+            bbox_poly, text, conf = res
+            text_str = str(text).strip()
+            if not text_str:
+                continue
 
-        # Convert 4-point polygon [[x1,y1],[x2,y2],[x3,y3],[x4,y4]] to [x, y, w, h]
-        try:
-            xs = [pt[0] for pt in bbox_poly]
-            ys = [pt[1] for pt in bbox_poly]
-            x_min = int(min(xs))
-            y_min = int(min(ys))
-            w = int(max(xs) - x_min)
-            h = int(max(ys) - y_min)
-            bbox = [x_min, y_min, w, h]
-        except Exception:
-            bbox = [40, 40, 400, 30]
+            raw_text_lines.append(text_str)
+            total_conf += float(conf)
+            count += 1
 
-        boxes.append({
-            "field": "text_line",
-            "text": text_str,
-            "confidence": round(float(conf), 2),
-            "bbox": bbox
-        })
+            try:
+                xs = [pt[0] for pt in bbox_poly]
+                ys = [pt[1] for pt in bbox_poly]
+                x_min = int(min(xs))
+                y_min = int(min(ys))
+                w = int(max(xs) - x_min)
+                h = int(max(ys) - y_min)
+                bbox = [x_min, y_min, w, h]
+            except Exception:
+                bbox = [40, 40, 400, 30]
 
-    avg_conf = round(total_conf / count, 2) if count > 0 else 0.0
-    raw_text = "\n".join(raw_text_lines)
+            boxes.append({
+                "field": "text_line",
+                "text": text_str,
+                "confidence": round(float(conf), 2),
+                "bbox": bbox
+            })
 
-    return {
-        "success": True,
-        "rawText": raw_text,
-        "confidence": avg_conf,
-        "boxes": boxes
-    }
+        avg_conf = round(total_conf / count, 2) if count > 0 else 0.0
+        raw_text = "\n".join(raw_text_lines)
+
+        return {
+            "success": True,
+            "rawText": raw_text,
+            "confidence": avg_conf,
+            "boxes": boxes,
+            "engine": "EasyOCR"
+        }
+    except Exception as e:
+        return {
+            "success": False,
+            "error": str(e),
+            "rawText": "",
+            "confidence": 0.0,
+            "boxes": []
+        }
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
