@@ -1,4 +1,6 @@
-# EasyOCR and PyTorch Dependencies for LegalCheck AI
+# PaddleOCR (Primary) & EasyOCR (Backup) Dependencies for LegalCheck AI
+rapidocr-onnxruntime>=1.3.0
+onnxruntime>=1.15.0
 easyocr>=1.7.0
 torch>=2.0.0
 torchvision>=0.15.0
