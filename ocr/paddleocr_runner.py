@@ -9,14 +9,12 @@ import os
 import json
 import warnings
 
-# Suppress all warnings and redirect stderr
+# Suppress warnings
 warnings.filterwarnings("ignore")
 os.environ["PYTHONWARNINGS"] = "ignore"
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
-_devnull = open(os.devnull, 'w', encoding='utf-8')
-sys.stderr = _devnull
 
 _engine = None
 
@@ -44,17 +42,17 @@ def run_ocr(image_path):
             "boxes": []
         }
 
-    engine = get_engine()
-    if engine is None:
-        return {
-            "success": False,
-            "error": "PaddleOCR engine unavailable",
-            "rawText": "",
-            "confidence": 0.0,
-            "boxes": []
-        }
-
     try:
+        engine = get_engine()
+        if engine is None:
+            return {
+                "success": False,
+                "error": "RapidOCR/PaddleOCR engine could not be initialized",
+                "rawText": "",
+                "confidence": 0.0,
+                "boxes": []
+            }
+
         raw_text_lines = []
         boxes = []
         total_conf = 0.0

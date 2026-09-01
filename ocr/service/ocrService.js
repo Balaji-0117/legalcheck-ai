@@ -14,17 +14,10 @@ const { execFile } = require('child_process');
 const { processImage } = require('../preprocessing/imageProcessor');
 const { extractDeclarations } = require('../parser/declarationExtractor');
 
-let Tesseract = null;
-try {
-  Tesseract = require('tesseract.js');
-} catch (e) {
-  // Optional if tesseract is in backend/node_modules
-}
-
 const SAMPLES_DIR = path.join(__dirname, '../../sample-data/ocr');
 const PADDLEOCR_RUNNER = path.join(__dirname, '../paddleocr_runner.py');
 const EASYOCR_RUNNER = path.join(__dirname, '../easyocr_runner.py');
-const OCR_TIMEOUT_MS = 30000;
+const OCR_TIMEOUT_MS = 35000;
 
 function getPythonExecutable() {
   if (process.env.PYTHON_PATH && fs.existsSync(process.env.PYTHON_PATH)) {
@@ -58,20 +51,26 @@ function runPythonScript(scriptPath, imagePath, timeoutMs) {
       { encoding: 'utf-8', timeout: timeoutMs, maxBuffer: 10 * 1024 * 1024 },
       (err, stdout, stderr) => {
         if (err || !stdout || !stdout.trim()) {
-          if (err) {
-            console.warn(`[OCR Warning] Python script (${path.basename(scriptPath)}) error:`, err.message);
-          }
+          console.warn(`[OCR Warning] Python script (${path.basename(scriptPath)}) execution error:`, err ? err.message : 'empty output');
+          if (stderr) console.warn(`[OCR Warning] stderr:`, stderr.substring(0, 300));
           return resolve(null);
         }
         try {
           const jsonStart = stdout.indexOf('{');
-          if (jsonStart === -1) return resolve(null);
+          if (jsonStart === -1) {
+            console.warn(`[OCR Warning] Non-JSON output:`, stdout.substring(0, 200));
+            return resolve(null);
+          }
           const result = JSON.parse(stdout.slice(jsonStart).trim());
           if (result && result.success && result.rawText && result.rawText.trim()) {
             return resolve(result);
           }
+          if (result && result.error) {
+            console.warn(`[OCR Warning] Script returned error:`, result.error);
+          }
           resolve(null);
         } catch (parseErr) {
+          console.warn(`[OCR Warning] JSON parse failed:`, parseErr.message);
           resolve(null);
         }
       }
@@ -79,13 +78,27 @@ function runPythonScript(scriptPath, imagePath, timeoutMs) {
   });
 }
 
-async function runTesseractFallback(imagePath) {
-  if (!Tesseract) {
+function getTesseractModule() {
+  const possibleRequires = [
+    'tesseract.js',
+    path.join(process.cwd(), 'node_modules/tesseract.js'),
+    path.join(process.cwd(), '../node_modules/tesseract.js'),
+    path.join(__dirname, '../../backend/node_modules/tesseract.js'),
+    path.join(__dirname, '../../node_modules/tesseract.js')
+  ];
+  for (const p of possibleRequires) {
     try {
-      Tesseract = require(path.join(__dirname, '../../backend/node_modules/tesseract.js'));
-    } catch (e) {
-      return null;
-    }
+      return require(p);
+    } catch (e) {}
+  }
+  return null;
+}
+
+async function runTesseractFallback(imagePath) {
+  const Tesseract = getTesseractModule();
+  if (!Tesseract) {
+    console.warn('[OCR Fallback] Tesseract module could not be loaded');
+    return null;
   }
 
   try {
@@ -108,10 +121,10 @@ async function runTesseractFallback(imagePath) {
       rawText: text.trim(),
       confidence: 0.85,
       boxes: boxes,
-      engine: 'Tesseract OCR (Node.js)'
+      engine: 'Tesseract OCR (Cloud Fallback)'
     };
   } catch (err) {
-    console.error('[OCR Error] Tesseract fallback failed:', err.message);
+    console.error('[OCR Error] Tesseract fallback error:', err.message);
     return null;
   }
 }
@@ -161,8 +174,8 @@ async function performOCRScan(imageBufferOrPath, sampleId = null, originalFilena
         usedEngine = 'EasyOCR (Backup)';
         console.log(`[OCR Engine] Backup: EasyOCR processed ${path.basename(imageBufferOrPath)} (${extractedBoxes.length} text blocks)`);
       } else {
-        // Step 2c: Fallback to Tertiary Engine (Tesseract.js inside Node)
-        console.warn(`[OCR Engine] Python OCR unavailable on host. Running Node Tesseract OCR fallback...`);
+        // Step 2c: Fallback to Tertiary Engine (Tesseract.js)
+        console.warn(`[OCR Engine] Running Node Tesseract OCR fallback for ${path.basename(imageBufferOrPath)}...`);
         const tessResult = await runTesseractFallback(imageBufferOrPath);
         if (tessResult && tessResult.rawText && tessResult.rawText.trim().length > 3) {
           extractedRawText = tessResult.rawText;
