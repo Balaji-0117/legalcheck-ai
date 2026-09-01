@@ -40,6 +40,77 @@ router.get('/dashboard/stats', getDashboardStats);
 // Report PDF route
 router.get('/reports/:id/pdf', generatePdfReport);
 
+// Debug OCR Diagnostics endpoint
+router.get('/debug/ocr', async (req, res) => {
+  const { execFile, execSync } = require('child_process');
+  const path = require('path');
+  const fs = require('fs');
+
+  let pythonPath = 'python3';
+  let whichPython = '';
+  let pipList = '';
+  let pyVersion = '';
+  let testError = null;
+  let testStdout = null;
+
+  try {
+    whichPython = execSync('which python || which python3 || echo "none"', { encoding: 'utf-8' }).trim();
+  } catch (e) {
+    whichPython = e.message;
+  }
+
+  try {
+    pyVersion = execSync('python3 --version || python --version', { encoding: 'utf-8' }).trim();
+  } catch (e) {
+    pyVersion = e.message;
+  }
+
+  try {
+    pipList = execSync('pip list || pip3 list', { encoding: 'utf-8' }).trim();
+  } catch (e) {
+    pipList = e.message;
+  }
+
+  // Try running paddleocr_runner.py with a dummy call
+  const runnerPath = path.join(__dirname, '../../../ocr/paddleocr_runner.py');
+  const sampleImg = path.join(__dirname, '../../../backend/uploads');
+  let testFile = '';
+  if (fs.existsSync(sampleImg)) {
+    const files = fs.readdirSync(sampleImg);
+    if (files.length > 0) {
+      testFile = path.join(sampleImg, files[0]);
+    }
+  }
+
+  if (testFile) {
+    await new Promise((resolve) => {
+      execFile(
+        process.platform === 'win32' ? 'python' : (process.env.PYTHON_PATH || 'python3'),
+        [runnerPath, testFile],
+        { encoding: 'utf-8', timeout: 15000 },
+        (err, stdout, stderr) => {
+          testStdout = stdout;
+          testError = err ? { message: err.message, stderr } : null;
+          resolve();
+        }
+      );
+    });
+  }
+
+  res.json({
+    cwd: process.cwd(),
+    platform: process.platform,
+    env_PYTHON_PATH: process.env.PYTHON_PATH,
+    whichPython,
+    pyVersion,
+    pipListSnippet: pipList.substring(0, 500),
+    runnerPathExists: fs.existsSync(runnerPath),
+    testFile,
+    testStdout,
+    testError
+  });
+});
+
 // Auth login route
 router.post('/auth/login', (req, res) => {
   const { email, password } = req.body;
