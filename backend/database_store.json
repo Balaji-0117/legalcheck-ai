@@ -11,6 +11,3318 @@
   ],
   "scans": [
     {
+      "id": "LM-2026-71849",
+      "product_name": "Sunfeast Fantastik Per Stick",
+      "image_url": "/uploads/1788235866410-WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg",
+      "image_urls": [
+        "/uploads/1788235866410-WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg",
+        "/uploads/1788235866416-WhatsApp Image 2026-08-30 at 12.58.57 PM.jpeg",
+        "/uploads/1788235866420-WhatsApp Image 2026-08-30 at 12.59.10 PM.jpeg"
+      ],
+      "photo_count": 3,
+      "score": 78,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-09-01T04:11:27.125Z",
+      "rawText": "--- [PACKAGE PHOTO 1 - WhatsApp Image 2026-08-30 at 12.58.41 PM.jpeg] ---\nSunfeast\nFantastik!\nPer Stick\n10g\nor\n\n--- [PACKAGE PHOTO 2 - WhatsApp Image 2026-08-30 at 12.58.57 PM.jpeg] ---\nADDEDSUGASAT\nFORFEEDBAL\nLOMPLAINTCUTACE\nNATURALLY OCCURRING TRANS FAT)0.09\nITCCARES-P.O.BOXN.59\n05%ATURATEDFA11.5（4.5%）CHOLESTEL\nBECRU-560005\n0mgSODIUM678mg0.3%)HEVALUESWITIN\nitccaresaitcin\nBACKETS INDICATE%RDAPERSERVE(9g)\n1800425444 44\nQUALTYGUARANTE\nPPROX.NO.OFSERVESPERPACK-44.4\nIRPRs.200.00incl.ofalltaxes\nBATCH NO.:\nRs.0.50perg)\nMFD.:\nETWEIGHT:\n400g\nUSE BY:\nOUNITSX10.0g)\n\n--- [PACKAGE PHOTO 3 - WhatsApp Image 2026-08-30 at 12.59.10 PM.jpeg] ---\nARFLOUR.FOCON\nOLIDS5.0%\nCAD ESTERSO\nRNEL\nODIZED\nCONTAINSMILK,WHEA\nGSUBSTANCES(CHOCOLATE).\nCONTAN NT\nTHE BATCH IO\nJPUR.SAMBASAMBA-181133.Lic.No.11023999000023\nAFFECTINGNETWEIGHT,OCASSIONALLYTHERECOULDBEVARIATION INTHENUMBEROFWN\nAGEMAYCONTAIN WRAPPER(S)DEVOIDOFPRODUCT\nSTOREINA COOLAND DRYPLACE\nfssai\nNo.10012031000312\nETEDBY:ITCLTD.\nLNEHRUROAD,KOLKATA-700071\n811909081001970",
+      "confidence": 0.79,
+      "ocrEngine": "PaddleOCR (Primary)",
+      "fields": {
+        "product_name": "Sunfeast Fantastik Per Stick",
+        "net_quantity": "10g",
+        "mrp": "Rs.200.00",
+        "manufacturing_date": "BATCH NO",
+        "consumer_care": "1800425444",
+        "manufacturer": "ITCLTD",
+        "best_before": "USE BY: OUNITSX10.0g)",
+        "fssai_lic_no": "Lic.No.11023999000023",
+        "ingredients": "FLOUR.FOCON"
+      },
+      "boxes": [
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Sunfeast",
+          "confidence": 0.86,
+          "bbox": [
+            611,
+            276,
+            559,
+            151
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Fantastik!",
+          "confidence": 0.89,
+          "bbox": [
+            31,
+            300,
+            1549,
+            587
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Per Stick",
+          "confidence": 0.82,
+          "bbox": [
+            314,
+            1104,
+            170,
+            82
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] 10g",
+          "confidence": 0.64,
+          "bbox": [
+            146,
+            1177,
+            143,
+            124
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] or",
+          "confidence": 0.63,
+          "bbox": [
+            128,
+            1222,
+            33,
+            43
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] ADDEDSUGASAT",
+          "confidence": 0.7,
+          "bbox": [
+            1090,
+            370,
+            142,
+            70
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] FORFEEDBAL",
+          "confidence": 0.85,
+          "bbox": [
+            885,
+            425,
+            164,
+            46
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] LOMPLAINTCUTACE",
+          "confidence": 0.71,
+          "bbox": [
+            1077,
+            434,
+            149,
+            59
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] NATURALLY OCCURRING TRANS FAT)0.09",
+          "confidence": 0.88,
+          "bbox": [
+            182,
+            435,
+            623,
+            85
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] ITCCARES-P.O.BOXN.59",
+          "confidence": 0.75,
+          "bbox": [
+            936,
+            466,
+            268,
+            59
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 05%ATURATEDFA11.5（4.5%）CHOLESTEL",
+          "confidence": 0.68,
+          "bbox": [
+            137,
+            483,
+            694,
+            88
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] BECRU-560005",
+          "confidence": 0.72,
+          "bbox": [
+            984,
+            507,
+            207,
+            54
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 0mgSODIUM678mg0.3%)HEVALUESWITIN",
+          "confidence": 0.69,
+          "bbox": [
+            131,
+            530,
+            702,
+            89
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] itccaresaitcin",
+          "confidence": 0.85,
+          "bbox": [
+            968,
+            554,
+            227,
+            54
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] BACKETS INDICATE%RDAPERSERVE(9g)",
+          "confidence": 0.81,
+          "bbox": [
+            132,
+            585,
+            582,
+            77
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 1800425444 44",
+          "confidence": 0.83,
+          "bbox": [
+            955,
+            610,
+            243,
+            38
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] QUALTYGUARANTE",
+          "confidence": 0.76,
+          "bbox": [
+            1031,
+            649,
+            142,
+            38
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] PPROX.NO.OFSERVESPERPACK-44.4",
+          "confidence": 0.92,
+          "bbox": [
+            137,
+            643,
+            528,
+            66
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] IRPRs.200.00incl.ofalltaxes",
+          "confidence": 0.91,
+          "bbox": [
+            143,
+            759,
+            606,
+            62
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] BATCH NO.:",
+          "confidence": 0.79,
+          "bbox": [
+            793,
+            760,
+            177,
+            51
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Rs.0.50perg)",
+          "confidence": 0.87,
+          "bbox": [
+            139,
+            820,
+            254,
+            70
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] MFD.:",
+          "confidence": 0.81,
+          "bbox": [
+            792,
+            845,
+            105,
+            56
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] ETWEIGHT:",
+          "confidence": 0.81,
+          "bbox": [
+            142,
+            913,
+            225,
+            55
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 400g",
+          "confidence": 0.76,
+          "bbox": [
+            458,
+            906,
+            145,
+            73
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] USE BY:",
+          "confidence": 0.83,
+          "bbox": [
+            794,
+            928,
+            137,
+            59
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] OUNITSX10.0g)",
+          "confidence": 0.81,
+          "bbox": [
+            133,
+            969,
+            250,
+            66
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] ARFLOUR.FOCON",
+          "confidence": 0.69,
+          "bbox": [
+            818,
+            59,
+            112,
+            62
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] OLIDS5.0%",
+          "confidence": 0.61,
+          "bbox": [
+            824,
+            98,
+            77,
+            44
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] CAD ESTERSO",
+          "confidence": 0.76,
+          "bbox": [
+            819,
+            127,
+            96,
+            53
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] RNEL",
+          "confidence": 0.75,
+          "bbox": [
+            833,
+            169,
+            45,
+            30
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] ODIZED",
+          "confidence": 0.71,
+          "bbox": [
+            834,
+            200,
+            58,
+            37
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] CONTAINSMILK,WHEA",
+          "confidence": 0.76,
+          "bbox": [
+            504,
+            210,
+            263,
+            46
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] GSUBSTANCES(CHOCOLATE).",
+          "confidence": 0.88,
+          "bbox": [
+            128,
+            210,
+            304,
+            57
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] CONTAN NT",
+          "confidence": 0.66,
+          "bbox": [
+            841,
+            233,
+            78,
+            44
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] THE BATCH IO",
+          "confidence": 0.71,
+          "bbox": [
+            834,
+            275,
+            120,
+            50
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] JPUR.SAMBASAMBA-181133.Lic.No.11023999000023",
+          "confidence": 0.9,
+          "bbox": [
+            117,
+            422,
+            587,
+            50
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] AFFECTINGNETWEIGHT,OCASSIONALLYTHERECOULDBEVARIATION INTHENUMBEROFWN",
+          "confidence": 0.86,
+          "bbox": [
+            123,
+            469,
+            831,
+            46
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] AGEMAYCONTAIN WRAPPER(S)DEVOIDOFPRODUCT",
+          "confidence": 0.91,
+          "bbox": [
+            121,
+            503,
+            553,
+            44
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] STOREINA COOLAND DRYPLACE",
+          "confidence": 0.88,
+          "bbox": [
+            477,
+            536,
+            382,
+            38
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] fssai",
+          "confidence": 0.6,
+          "bbox": [
+            174,
+            590,
+            78,
+            46
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] No.10012031000312",
+          "confidence": 0.9,
+          "bbox": [
+            126,
+            643,
+            249,
+            38
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] ETEDBY:ITCLTD.",
+          "confidence": 0.85,
+          "bbox": [
+            134,
+            687,
+            174,
+            39
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] LNEHRUROAD,KOLKATA-700071",
+          "confidence": 0.89,
+          "bbox": [
+            130,
+            720,
+            298,
+            46
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] 811909081001970",
+          "confidence": 0.86,
+          "bbox": [
+            481,
+            688,
+            375,
+            66
+          ],
+          "side": "Photo 3"
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.79,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"ITCLTD...\"",
+          "confidence": 0.92,
+          "bbox": null,
+          "detectedText": "ITCLTD"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"Sunfeast Fantastik Per Stick\"",
+          "confidence": 0.95,
+          "bbox": null,
+          "detectedText": "Sunfeast Fantastik Per Stick"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"10g\"",
+          "confidence": 0.94,
+          "bbox": null,
+          "detectedText": "10g"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"Rs.200.00\"",
+          "confidence": 0.96,
+          "bbox": null,
+          "detectedText": "Rs.200.00"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"BATCH NO\"",
+          "confidence": 0.91,
+          "bbox": null,
+          "detectedText": "BATCH NO"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"1800425444\"",
+          "confidence": 0.93,
+          "bbox": null,
+          "detectedText": "1800425444"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"USE BY: OUNITSX10.0g)\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "USE BY: OUNITSX10.0g)"
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "MRP follows prescribed statutory format including all taxes.",
+          "confidence": 0.95,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 9,
+        "failedChecks": 3,
+        "warningChecks": 1,
+        "highSeverityViolations": 1
+      }
+    },
+    {
+      "id": "LM-2026-17056",
+      "product_name": "TATA Salt OVER",
+      "image_url": "/uploads/1788235669939-WhatsApp Image 2026-08-30 at 1.39.53 PM.jpeg",
+      "image_urls": [
+        "/uploads/1788235669939-WhatsApp Image 2026-08-30 at 1.39.53 PM.jpeg",
+        "/uploads/1788235669950-WhatsApp Image 2026-08-30 at 1.39.52 PM (1).jpeg",
+        "/uploads/1788235669957-WhatsApp Image 2026-08-30 at 1.39.52 PM.jpeg"
+      ],
+      "photo_count": 3,
+      "score": 78,
+      "status": "NON-COMPLIANT",
+      "created_at": "2026-09-01T04:08:16.116Z",
+      "rawText": "--- [PACKAGE PHOTO 1 - WhatsApp Image 2026-08-30 at 1.39.53 PM.jpeg] ---\nBalanced\nTaste\nTATA\nSalt\nOVER\n¥40\nYEARS OF\nTRUST\nVacuumEvaporated\nlodised\nRECYCLABLE#\nSCANME\nPACK\nlodine\nHelps Mental\nGuarantee\nDevelopment\nlagesarefor\nustrationpurpose\nVacuum Evaporated Edible Common Salt\n\n--- [PACKAGE PHOTO 2 - WhatsApp Image 2026-08-30 at 1.39.52 PM (1).jpeg] ---\nPRTSC\nBKSP\nHOME\nPGUD\nATASALY\nNATURALLY SOUR\nSEA SALT WITODINE\nPURITY\nIstnSllcontunstau\nGUARANTEE\nDID YOU KNOW?\nTata Salt ismade with Vacuurn\nTATASALTLITE\nREDUCE SODIUM\nFOR ACTIVE\nHEALTH\nTATA\n15%LESS\nKolkata-700 071.\nSODIUMA\nMyatahmcalsmit\nGujarat.Lic.No.10012021000351\nForRepackingunitdetails and\nFSSAI Licenseno.please scan\ntheQR codeand seethefirsttwo\nataSaltprovidhighgraduritywin\nlettersof the Batch No.printed.\nDthevacuumevaporation technology.\nCONSUMER CAREDETAILS:CUSTOMERCAEEP\nInformation (Approximate values)\nTATACONSUMERPRODUCTSLTD.,KIRLOS\n1g(Servingsperpack1000)）\nPARK,HEBBAL,BENGALURU-560024.KAR\nTOLLFREENUMBER:18001084488\naluesper100g[PerServe（%)RDA]-\nEMAlIL:care@tataconsumer.com\nIkcal[]Proteingarbhyrat\n9571617161\nSsdium38000mg[19],odin2mg[14]\nForguidl\nsEdibleCommon Salt,\nmlodateand AnticakingAgent(INS536)\n8904043901015\npleasevistpene\nLELANDDRYPLACE\nNETQUANTTTY:\nFROM DIRECT HEAT OR SUNLIGHT.\nMRP32.00incl.ofalltaxes\nuyethylene)laminateis100%Recyclable.\nDate of\nTata Salt'sReoye\nTUnE15%lesssodiumthan\nJUN/26\nYourwaytoaceane\nPackaging:\nless\nMAY/28\nUse By:\nTATA\nEAND DOES NOT REPRESENT ITS\nBN:\nTATAR\nNATURE\n\n--- [PACKAGE PHOTO 3 - WhatsApp Image 2026-08-30 at 1.39.52 PM.jpeg] ---\nNo.\ntedP\n021000351\ndetalls and\npleasescan\ndseethefirsttwo\nKSA\nCAR\nOSKA\nKARNATAKA\nQ：571617161\nForguidelines to dispose plast\nfor further recycle /reuse,\n89040431901015\nNET QUANTITY:\n1 kg\nMRP32.00incl.ofall taxes\nDate of\nTata Salt's Recyclablo'pa\nYour way to a cleaner environment\nPackaging:\nJUN/26\nlesswasteandenergyavings\nUse By.\nMAY/28\nTATA\nBN\nTATA is a trademarkol\nTata Sons Pyt.Ltd",
+      "confidence": 0.79,
+      "ocrEngine": "PaddleOCR (Primary)",
+      "fields": {
+        "product_name": "TATA Salt OVER",
+        "mrp": "MRP32.00incl.ofalltaxes",
+        "net_quantity": "1 kg",
+        "manufacturing_date": "Batch No.printed",
+        "consumer_care": "CONSUMER CAREDETAILS:CUSTOMERCAEEP",
+        "manufacturer": "TATACONSUMERPRODUCTSLTD.,KIRLOS",
+        "best_before": "Use By: TATA",
+        "fssai_lic_no": "Lic.No.10012021000351"
+      },
+      "boxes": [
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Balanced",
+          "confidence": 0.88,
+          "bbox": [
+            150,
+            413,
+            73,
+            29
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Taste",
+          "confidence": 0.83,
+          "bbox": [
+            158,
+            441,
+            61,
+            32
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] TATA",
+          "confidence": 0.78,
+          "bbox": [
+            258,
+            512,
+            278,
+            96
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Salt",
+          "confidence": 0.74,
+          "bbox": [
+            272,
+            597,
+            247,
+            151
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] OVER",
+          "confidence": 0.78,
+          "bbox": [
+            578,
+            683,
+            48,
+            24
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] ¥40",
+          "confidence": 0.57,
+          "bbox": [
+            565,
+            700,
+            68,
+            37
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] YEARS OF",
+          "confidence": 0.81,
+          "bbox": [
+            581,
+            730,
+            49,
+            21
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] TRUST",
+          "confidence": 0.78,
+          "bbox": [
+            585,
+            743,
+            42,
+            18
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] VacuumEvaporated",
+          "confidence": 0.86,
+          "bbox": [
+            295,
+            747,
+            211,
+            34
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] lodised",
+          "confidence": 0.86,
+          "bbox": [
+            362,
+            778,
+            79,
+            31
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] RECYCLABLE#",
+          "confidence": 0.84,
+          "bbox": [
+            147,
+            842,
+            146,
+            26
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] SCANME",
+          "confidence": 0.72,
+          "bbox": [
+            658,
+            832,
+            41,
+            22
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] PACK",
+          "confidence": 0.67,
+          "bbox": [
+            145,
+            862,
+            64,
+            31
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] lodine",
+          "confidence": 0.84,
+          "bbox": [
+            269,
+            904,
+            71,
+            25
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Helps Mental",
+          "confidence": 0.87,
+          "bbox": [
+            363,
+            894,
+            121,
+            30
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Guarantee",
+          "confidence": 0.86,
+          "bbox": [
+            269,
+            926,
+            72,
+            16
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Development",
+          "confidence": 0.88,
+          "bbox": [
+            365,
+            917,
+            125,
+            25
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] lagesarefor",
+          "confidence": 0.87,
+          "bbox": [
+            122,
+            933,
+            72,
+            18
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] ustrationpurpose",
+          "confidence": 0.93,
+          "bbox": [
+            120,
+            946,
+            106,
+            19
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 1] Vacuum Evaporated Edible Common Salt",
+          "confidence": 0.93,
+          "bbox": [
+            282,
+            940,
+            260,
+            25
+          ],
+          "side": "Photo 1"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] PRTSC",
+          "confidence": 0.74,
+          "bbox": [
+            400,
+            19,
+            43,
+            20
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] BKSP",
+          "confidence": 0.76,
+          "bbox": [
+            464,
+            70,
+            53,
+            23
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] HOME",
+          "confidence": 0.79,
+          "bbox": [
+            557,
+            73,
+            35,
+            14
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] PGUD",
+          "confidence": 0.65,
+          "bbox": [
+            560,
+            145,
+            34,
+            14
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] ATASALY",
+          "confidence": 0.84,
+          "bbox": [
+            0,
+            188,
+            108,
+            22
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] NATURALLY SOUR",
+          "confidence": 0.84,
+          "bbox": [
+            100,
+            203,
+            127,
+            26
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] SEA SALT WITODINE",
+          "confidence": 0.8,
+          "bbox": [
+            97,
+            213,
+            136,
+            36
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] PURITY",
+          "confidence": 0.76,
+          "bbox": [
+            97,
+            232,
+            57,
+            24
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] IstnSllcontunstau",
+          "confidence": 0.58,
+          "bbox": [
+            508,
+            241,
+            103,
+            26
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] GUARANTEE",
+          "confidence": 0.87,
+          "bbox": [
+            96,
+            241,
+            86,
+            31
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] DID YOU KNOW?",
+          "confidence": 0.82,
+          "bbox": [
+            461,
+            298,
+            149,
+            31
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Tata Salt ismade with Vacuurn",
+          "confidence": 0.88,
+          "bbox": [
+            385,
+            314,
+            239,
+            41
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] TATASALTLITE",
+          "confidence": 0.85,
+          "bbox": [
+            0,
+            376,
+            173,
+            30
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] REDUCE SODIUM",
+          "confidence": 0.86,
+          "bbox": [
+            113,
+            399,
+            117,
+            26
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] FOR ACTIVE",
+          "confidence": 0.86,
+          "bbox": [
+            114,
+            417,
+            86,
+            25
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] HEALTH",
+          "confidence": 0.78,
+          "bbox": [
+            114,
+            436,
+            58,
+            24
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] TATA",
+          "confidence": 0.71,
+          "bbox": [
+            34,
+            453,
+            37,
+            19
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 15%LESS",
+          "confidence": 0.78,
+          "bbox": [
+            121,
+            451,
+            79,
+            27
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Kolkata-700 071.",
+          "confidence": 0.85,
+          "bbox": [
+            394,
+            441,
+            103,
+            32
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] SODIUMA",
+          "confidence": 0.85,
+          "bbox": [
+            157,
+            468,
+            69,
+            25
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Myatahmcalsmit",
+          "confidence": 0.61,
+          "bbox": [
+            393,
+            448,
+            230,
+            46
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Gujarat.Lic.No.10012021000351",
+          "confidence": 0.87,
+          "bbox": [
+            396,
+            487,
+            215,
+            40
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] ForRepackingunitdetails and",
+          "confidence": 0.89,
+          "bbox": [
+            398,
+            512,
+            190,
+            33
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] FSSAI Licenseno.please scan",
+          "confidence": 0.9,
+          "bbox": [
+            399,
+            532,
+            192,
+            31
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] theQR codeand seethefirsttwo",
+          "confidence": 0.91,
+          "bbox": [
+            400,
+            552,
+            208,
+            30
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] ataSaltprovidhighgraduritywin",
+          "confidence": 0.75,
+          "bbox": [
+            9,
+            564,
+            233,
+            33
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] lettersof the Batch No.printed.",
+          "confidence": 0.89,
+          "bbox": [
+            401,
+            571,
+            196,
+            30
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Dthevacuumevaporation technology.",
+          "confidence": 0.92,
+          "bbox": [
+            6,
+            582,
+            212,
+            32
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] CONSUMER CAREDETAILS:CUSTOMERCAEEP",
+          "confidence": 0.89,
+          "bbox": [
+            402,
+            594,
+            254,
+            31
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Information (Approximate values)",
+          "confidence": 0.89,
+          "bbox": [
+            6,
+            616,
+            220,
+            33
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] TATACONSUMERPRODUCTSLTD.,KIRLOS",
+          "confidence": 0.8,
+          "bbox": [
+            402,
+            612,
+            234,
+            30
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 1g(Servingsperpack1000)）",
+          "confidence": 0.83,
+          "bbox": [
+            0,
+            639,
+            194,
+            35
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] PARK,HEBBAL,BENGALURU-560024.KAR",
+          "confidence": 0.84,
+          "bbox": [
+            402,
+            630,
+            240,
+            29
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] TOLLFREENUMBER:18001084488",
+          "confidence": 0.86,
+          "bbox": [
+            405,
+            650,
+            207,
+            27
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] aluesper100g[PerServe（%)RDA]-",
+          "confidence": 0.89,
+          "bbox": [
+            0,
+            660,
+            224,
+            35
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] EMAlIL:care@tataconsumer.com",
+          "confidence": 0.88,
+          "bbox": [
+            404,
+            669,
+            203,
+            26
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Ikcal[]Proteingarbhyrat",
+          "confidence": 0.73,
+          "bbox": [
+            0,
+            683,
+            235,
+            34
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 9571617161",
+          "confidence": 0.82,
+          "bbox": [
+            404,
+            702,
+            107,
+            27
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Ssdium38000mg[19],odin2mg[14]",
+          "confidence": 0.79,
+          "bbox": [
+            0,
+            727,
+            239,
+            35
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Forguidl",
+          "confidence": 0.67,
+          "bbox": [
+            594,
+            746,
+            78,
+            27
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] sEdibleCommon Salt,",
+          "confidence": 0.82,
+          "bbox": [
+            3,
+            760,
+            155,
+            30
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] mlodateand AnticakingAgent(INS536)",
+          "confidence": 0.84,
+          "bbox": [
+            2,
+            777,
+            254,
+            35
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] 8904043901015",
+          "confidence": 0.83,
+          "bbox": [
+            418,
+            786,
+            164,
+            24
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] pleasevistpene",
+          "confidence": 0.65,
+          "bbox": [
+            596,
+            772,
+            82,
+            28
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] LELANDDRYPLACE",
+          "confidence": 0.77,
+          "bbox": [
+            3,
+            803,
+            114,
+            22
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] NETQUANTTTY:",
+          "confidence": 0.83,
+          "bbox": [
+            579,
+            798,
+            98,
+            34
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] FROM DIRECT HEAT OR SUNLIGHT.",
+          "confidence": 0.86,
+          "bbox": [
+            3,
+            815,
+            194,
+            28
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] MRP32.00incl.ofalltaxes",
+          "confidence": 0.89,
+          "bbox": [
+            414,
+            817,
+            162,
+            27
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] uyethylene)laminateis100%Recyclable.",
+          "confidence": 0.84,
+          "bbox": [
+            6,
+            831,
+            265,
+            34
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Date of",
+          "confidence": 0.79,
+          "bbox": [
+            415,
+            850,
+            57,
+            23
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Tata Salt'sReoye",
+          "confidence": 0.76,
+          "bbox": [
+            582,
+            837,
+            89,
+            25
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] TUnE15%lesssodiumthan",
+          "confidence": 0.8,
+          "bbox": [
+            3,
+            854,
+            225,
+            30
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] JUN/26",
+          "confidence": 0.85,
+          "bbox": [
+            527,
+            865,
+            52,
+            21
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Yourwaytoaceane",
+          "confidence": 0.7,
+          "bbox": [
+            580,
+            846,
+            108,
+            34
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Packaging:",
+          "confidence": 0.88,
+          "bbox": [
+            416,
+            869,
+            79,
+            21
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] less",
+          "confidence": 0.53,
+          "bbox": [
+            580,
+            864,
+            110,
+            26
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] MAY/28",
+          "confidence": 0.84,
+          "bbox": [
+            525,
+            894,
+            50,
+            17
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] Use By:",
+          "confidence": 0.78,
+          "bbox": [
+            416,
+            895,
+            56,
+            20
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] TATA",
+          "confidence": 0.76,
+          "bbox": [
+            657,
+            904,
+            29,
+            11
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] EAND DOES NOT REPRESENT ITS",
+          "confidence": 0.87,
+          "bbox": [
+            4,
+            908,
+            255,
+            30
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] BN:",
+          "confidence": 0.72,
+          "bbox": [
+            415,
+            914,
+            29,
+            15
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] TATAR",
+          "confidence": 0.66,
+          "bbox": [
+            614,
+            915,
+            56,
+            14
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 2] NATURE",
+          "confidence": 0.84,
+          "bbox": [
+            11,
+            934,
+            65,
+            16
+          ],
+          "side": "Photo 2"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] No.",
+          "confidence": 0.71,
+          "bbox": [
+            364,
+            57,
+            47,
+            24
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] tedP",
+          "confidence": 0.56,
+          "bbox": [
+            340,
+            81,
+            89,
+            27
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] 021000351",
+          "confidence": 0.86,
+          "bbox": [
+            287,
+            129,
+            113,
+            35
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] detalls and",
+          "confidence": 0.8,
+          "bbox": [
+            245,
+            156,
+            120,
+            47
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] pleasescan",
+          "confidence": 0.83,
+          "bbox": [
+            206,
+            183,
+            161,
+            52
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] dseethefirsttwo",
+          "confidence": 0.72,
+          "bbox": [
+            209,
+            211,
+            185,
+            47
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] KSA",
+          "confidence": 0.57,
+          "bbox": [
+            96,
+            245,
+            50,
+            22
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] CAR",
+          "confidence": 0.67,
+          "bbox": [
+            407,
+            296,
+            40,
+            31
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] OSKA",
+          "confidence": 0.66,
+          "bbox": [
+            403,
+            322,
+            49,
+            36
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] KARNATAKA",
+          "confidence": 0.88,
+          "bbox": [
+            401,
+            351,
+            121,
+            49
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Q：571617161",
+          "confidence": 0.84,
+          "bbox": [
+            42,
+            443,
+            153,
+            45
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Forguidelines to dispose plast",
+          "confidence": 0.85,
+          "bbox": [
+            341,
+            529,
+            204,
+            42
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] for further recycle /reuse,",
+          "confidence": 0.84,
+          "bbox": [
+            341,
+            556,
+            181,
+            33
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] 89040431901015",
+          "confidence": 0.89,
+          "bbox": [
+            33,
+            588,
+            284,
+            36
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] NET QUANTITY:",
+          "confidence": 0.87,
+          "bbox": [
+            314,
+            627,
+            189,
+            35
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] 1 kg",
+          "confidence": 0.58,
+          "bbox": [
+            534,
+            629,
+            56,
+            43
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] MRP32.00incl.ofall taxes",
+          "confidence": 0.87,
+          "bbox": [
+            29,
+            647,
+            274,
+            36
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Date of",
+          "confidence": 0.78,
+          "bbox": [
+            28,
+            703,
+            88,
+            38
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Tata Salt's Recyclablo'pa",
+          "confidence": 0.88,
+          "bbox": [
+            322,
+            694,
+            242,
+            25
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Your way to a cleaner environment",
+          "confidence": 0.84,
+          "bbox": [
+            323,
+            720,
+            278,
+            26
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Packaging:",
+          "confidence": 0.84,
+          "bbox": [
+            29,
+            738,
+            130,
+            39
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] JUN/26",
+          "confidence": 0.77,
+          "bbox": [
+            217,
+            731,
+            90,
+            38
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] lesswasteandenergyavings",
+          "confidence": 0.74,
+          "bbox": [
+            321,
+            746,
+            267,
+            28
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Use By.",
+          "confidence": 0.77,
+          "bbox": [
+            31,
+            786,
+            95,
+            48
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] MAY/28",
+          "confidence": 0.81,
+          "bbox": [
+            217,
+            790,
+            90,
+            37
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] TATA",
+          "confidence": 0.79,
+          "bbox": [
+            461,
+            819,
+            67,
+            24
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] BN",
+          "confidence": 0.66,
+          "bbox": [
+            38,
+            830,
+            51,
+            38
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] TATA is a trademarkol",
+          "confidence": 0.78,
+          "bbox": [
+            385,
+            841,
+            214,
+            26
+          ],
+          "side": "Photo 3"
+        },
+        {
+          "field": "text_line",
+          "text": "[Photo 3] Tata Sons Pyt.Ltd",
+          "confidence": 0.77,
+          "bbox": [
+            412,
+            863,
+            161,
+            27
+          ],
+          "side": "Photo 3"
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.79,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "FAIL",
+          "reason": "Country of origin declaration missing (Mandatory under Rule 6 for packaged commodities).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Issue statutory notice under Rule 6 of LMPC Rules 2011. Non-declaration of mandatory Country of Origin constitutes a major offense."
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "FAIL",
+          "reason": "Feb 2026 Amendment: Mandatory searchable country-of-origin tag missing for digital listing / packaging compliance.",
+          "confidence": 0.82,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"TATACONSUMERPRODUCTSLTD.,KIRLOS...\"",
+          "confidence": 0.92,
+          "bbox": null,
+          "detectedText": "TATACONSUMERPRODUCTSLTD.,KIRLOS"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"TATA Salt OVER\"",
+          "confidence": 0.95,
+          "bbox": null,
+          "detectedText": "TATA Salt OVER"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"1 kg\"",
+          "confidence": 0.94,
+          "bbox": null,
+          "detectedText": "1 kg"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP32.00incl.ofalltaxes\"",
+          "confidence": 0.96,
+          "bbox": null,
+          "detectedText": "MRP32.00incl.ofalltaxes"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"Batch No.printed\"",
+          "confidence": 0.91,
+          "bbox": null,
+          "detectedText": "Batch No.printed"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"CONSUMER CAREDETAILS:CUSTOMERCAEEP\"",
+          "confidence": 0.93,
+          "bbox": null,
+          "detectedText": "CONSUMER CAREDETAILS:CUSTOMERCAEEP"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Use By: TATA\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "Use By: TATA"
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "MRP follows prescribed statutory format including all taxes.",
+          "confidence": 0.95,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 9,
+        "failedChecks": 3,
+        "warningChecks": 1,
+        "highSeverityViolations": 1
+      }
+    },
+    {
+      "id": "LM-2026-13660",
+      "product_name": "SUNRISE PREMIUM WHOLE WHEAT ATTA",
+      "image_url": "/sample-images/03_missing_unit_sale_price.jpg",
+      "image_urls": [
+        "/sample-images/03_missing_unit_sale_price.jpg"
+      ],
+      "photo_count": 1,
+      "score": 92,
+      "status": "WARNING",
+      "created_at": "2026-08-31T19:45:09.468Z",
+      "rawText": "SUNRISE PREMIUM WHOLE WHEAT ATTA\nMfg by: Sunrise Agro Foods Pvt Ltd, Guntur, Andhra Pradesh 522002\nNet Weight: 5 kg\nMRP ₹280.00 incl. of all taxes\nPKD 05/2026\nBest Before 4 Months from packing\nConsumer Helpline: 1800-112-9900\nCountry of Origin: India",
+      "confidence": 0.95,
+      "ocrEngine": "Preset Sample",
+      "fields": {
+        "product_name": "SUNRISE PREMIUM WHOLE WHEAT ATTA",
+        "manufacturer": "Mfg by: Sunrise Agro Foods Pvt Ltd, Guntur, Andhra Pradesh 522002",
+        "net_quantity": "5 kg",
+        "mrp": "MRP ₹280.00 incl. of all taxes",
+        "manufacturing_date": "PKD 05/2026",
+        "best_before": "Best Before 4 Months from packing",
+        "consumer_care": "Helpline: 1800-112-9900",
+        "country_of_origin": "Country of Origin: India",
+        "unit_sale_price": null
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "SUNRISE PREMIUM WHOLE WHEAT ATTA",
+          "bbox": [
+            40,
+            30,
+            480,
+            60
+          ],
+          "confidence": 0.97
+        },
+        {
+          "field": "manufacturer",
+          "text": "Mfg by: Sunrise Agro Foods Pvt Ltd, Guntur",
+          "bbox": [
+            40,
+            100,
+            490,
+            45
+          ],
+          "confidence": 0.94
+        },
+        {
+          "field": "net_quantity",
+          "text": "Net Weight: 5 kg",
+          "bbox": [
+            40,
+            160,
+            180,
+            35
+          ],
+          "confidence": 0.96
+        },
+        {
+          "field": "mrp",
+          "text": "MRP ₹280.00 incl. of all taxes",
+          "bbox": [
+            240,
+            160,
+            260,
+            35
+          ],
+          "confidence": 0.98
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "PKD 05/2026",
+          "bbox": [
+            40,
+            210,
+            160,
+            30
+          ],
+          "confidence": 0.94
+        },
+        {
+          "field": "consumer_care",
+          "text": "Consumer Helpline: 1800-112-9900",
+          "bbox": [
+            40,
+            250,
+            340,
+            35
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field": "country_of_origin",
+          "text": "Country of Origin: India",
+          "bbox": [
+            40,
+            300,
+            230,
+            30
+          ],
+          "confidence": 0.96
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.95,
+        "lowContrast": false
+      },
+      "violations": [
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "FAIL",
+          "reason": "Unit Sale Price declaration (e.g. ₹0.50/g or ₹500/kg) missing as required under Rule 6(1)(11).",
+          "confidence": 0.4,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Formally advise packer/manufacturer to rectify Unit Sale Price declaration formatting to comply with Rule 6(1)(11)."
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "WARNING",
+          "reason": "Product dimensions not declared (Required if size/area is relevant).",
+          "confidence": 0.7,
+          "bbox": null,
+          "detectedText": null,
+          "officerAction": "Note minor deviation for inspection log."
+        }
+      ],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"Mfg by: Sunrise Agro Foods Pvt Ltd, Gunt...\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            100,
+            490,
+            45
+          ],
+          "detectedText": "Mfg by: Sunrise Agro Foods Pvt Ltd, Guntur"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"SUNRISE PREMIUM WHOLE WHEAT ATTA\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            30,
+            480,
+            60
+          ],
+          "detectedText": "SUNRISE PREMIUM WHOLE WHEAT ATTA"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"5 kg\"",
+          "confidence": 0.94,
+          "bbox": [
+            40,
+            160,
+            180,
+            35
+          ],
+          "detectedText": "Net Weight: 5 kg"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP ₹280.00 incl. of all taxes\"",
+          "confidence": 0.96,
+          "bbox": [
+            240,
+            160,
+            260,
+            35
+          ],
+          "detectedText": "MRP ₹280.00 incl. of all taxes"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"PKD 05/2026\"",
+          "confidence": 0.91,
+          "bbox": [
+            40,
+            210,
+            160,
+            30
+          ],
+          "detectedText": "PKD 05/2026"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"Helpline: 1800-112-9900\"",
+          "confidence": 0.93,
+          "bbox": [
+            40,
+            250,
+            340,
+            35
+          ],
+          "detectedText": "Consumer Helpline: 1800-112-9900"
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Country of origin declared: \"Country of Origin: India\"",
+          "confidence": 0.9,
+          "bbox": [
+            40,
+            300,
+            230,
+            30
+          ],
+          "detectedText": "Country of Origin: India"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Best Before 4 Months from packing\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "Best Before 4 Months from packing"
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "MRP follows prescribed statutory format including all taxes.",
+          "confidence": 0.95,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "PASS",
+          "reason": "Feb 2026 Amendment: Country of origin compliance verified.",
+          "confidence": 0.91,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 11,
+        "failedChecks": 1,
+        "warningChecks": 1,
+        "highSeverityViolations": 0
+      }
+    },
+    {
+      "id": "LM-2026-94211",
+      "product_name": "Tata Sampann Premium Organic Tea",
+      "image_url": "/sample-images/01_compliant_biscuits.jpg",
+      "image_urls": [
+        "/sample-images/01_compliant_biscuits.jpg",
+        "/sample-images/02_missing_country_origin.jpg",
+        "/sample-images/03_missing_unit_sale_price.jpg"
+      ],
+      "photo_count": 3,
+      "score": 100,
+      "status": "COMPLIANT",
+      "created_at": "2026-08-31T19:44:55.238Z",
+      "rawText": "--- [PHOTO 1 (FRONT SIDE)] ---\nTATA SAMPANN PREMIUM ORGANIC TEA\n100% Pure Assam Whole Leaf Tea\nNet Quantity: 500 g\n\n--- [PHOTO 2 (BACK PANEL / MRP & MFD)] ---\nMRP ₹340.00 (incl. of all taxes)\nMFD 08/2026\nBest Before 12 Months from Packaging\nUnit Sale Price: ₹0.68/g\nDimensions: 20 cm x 12 cm x 8 cm\n\n--- [PHOTO 3 (SIDE PANEL / MANUFACTURER & HELPLINE)] ---\nMfg by: Tata Consumer Products Ltd, 1 Bishop Lefroy Road, Kolkata 700020\nCountry of Origin: India\nConsumer Care: 1800-209-5000 / care@tataconsumer.com",
+      "confidence": 0.98,
+      "ocrEngine": "Preset Sample",
+      "fields": {
+        "product_name": "Tata Sampann Premium Organic Tea",
+        "net_quantity": "500 g",
+        "mrp": "MRP ₹340.00 (incl. of all taxes)",
+        "manufacturing_date": "MFD 08/2026",
+        "best_before": "Best Before 12 Months from Packaging",
+        "unit_sale_price": "Unit Sale Price: ₹0.68/g",
+        "manufacturer": "Mfg by: Tata Consumer Products Ltd, 1 Bishop Lefroy Road, Kolkata 700020",
+        "country_of_origin": "Country of Origin: India Consumer Care",
+        "consumer_care": "HELPLINE)]",
+        "dimensions": "Dimensions: 20 cm x 12 cm x 8 cm"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "[Photo 1 (Front)] TATA SAMPANN PREMIUM ORGANIC TEA",
+          "bbox": [
+            40,
+            40,
+            400,
+            50
+          ],
+          "confidence": 0.97,
+          "side": "Photo 1"
+        },
+        {
+          "field": "net_quantity",
+          "text": "[Photo 1 (Front)] Net Quantity: 500 g",
+          "bbox": [
+            40,
+            100,
+            220,
+            35
+          ],
+          "confidence": 0.96,
+          "side": "Photo 1"
+        },
+        {
+          "field": "mrp",
+          "text": "[Photo 2 (Back)] MRP ₹340.00 (incl. of all taxes)",
+          "bbox": [
+            40,
+            150,
+            280,
+            35
+          ],
+          "confidence": 0.98,
+          "side": "Photo 2"
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "[Photo 2 (Back)] MFD 08/2026",
+          "bbox": [
+            40,
+            195,
+            180,
+            30
+          ],
+          "confidence": 0.97,
+          "side": "Photo 2"
+        },
+        {
+          "field": "unit_sale_price",
+          "text": "[Photo 2 (Back)] Unit Sale Price: ₹0.68/g",
+          "bbox": [
+            40,
+            235,
+            230,
+            30
+          ],
+          "confidence": 0.95,
+          "side": "Photo 2"
+        },
+        {
+          "field": "dimensions",
+          "text": "[Photo 2 (Back)] Dimensions: 20 cm x 12 cm x 8 cm",
+          "bbox": [
+            40,
+            270,
+            260,
+            30
+          ],
+          "confidence": 0.95,
+          "side": "Photo 2"
+        },
+        {
+          "field": "manufacturer",
+          "text": "[Photo 3 (Side)] Mfg by: Tata Consumer Products Ltd, Kolkata 700020",
+          "bbox": [
+            40,
+            275,
+            450,
+            35
+          ],
+          "confidence": 0.96,
+          "side": "Photo 3"
+        },
+        {
+          "field": "country_of_origin",
+          "text": "[Photo 3 (Side)] Country of Origin: India",
+          "bbox": [
+            40,
+            320,
+            240,
+            30
+          ],
+          "confidence": 0.98,
+          "side": "Photo 3"
+        },
+        {
+          "field": "consumer_care",
+          "text": "[Photo 3 (Side)] Consumer Care: 1800-209-5000 / care@tataconsumer.com",
+          "bbox": [
+            40,
+            360,
+            420,
+            35
+          ],
+          "confidence": 0.97,
+          "side": "Photo 3"
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.98,
+        "lowContrast": false
+      },
+      "violations": [],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"Mfg by: Tata Consumer Products Ltd, 1 Bi...\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            275,
+            450,
+            35
+          ],
+          "detectedText": "[Photo 3 (Side)] Mfg by: Tata Consumer Products Ltd, Kolkata 700020"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"Tata Sampann Premium Organic Tea\"",
+          "confidence": 0.95,
+          "bbox": [
+            40,
+            40,
+            400,
+            50
+          ],
+          "detectedText": "[Photo 1 (Front)] TATA SAMPANN PREMIUM ORGANIC TEA"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"500 g\"",
+          "confidence": 0.94,
+          "bbox": [
+            40,
+            100,
+            220,
+            35
+          ],
+          "detectedText": "[Photo 1 (Front)] Net Quantity: 500 g"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP ₹340.00 (incl. of all taxes)\"",
+          "confidence": 0.96,
+          "bbox": [
+            40,
+            150,
+            280,
+            35
+          ],
+          "detectedText": "[Photo 2 (Back)] MRP ₹340.00 (incl. of all taxes)"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"MFD 08/2026\"",
+          "confidence": 0.91,
+          "bbox": [
+            40,
+            195,
+            180,
+            30
+          ],
+          "detectedText": "[Photo 2 (Back)] MFD 08/2026"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"HELPLINE)]\"",
+          "confidence": 0.93,
+          "bbox": [
+            40,
+            360,
+            420,
+            35
+          ],
+          "detectedText": "[Photo 3 (Side)] Consumer Care: 1800-209-5000 / care@tataconsumer.com"
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Country of origin declared: \"Country of Origin: India Consumer Care\"",
+          "confidence": 0.9,
+          "bbox": [
+            40,
+            320,
+            240,
+            30
+          ],
+          "detectedText": "[Photo 3 (Side)] Country of Origin: India"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Best Before 12 Months from Packaging\"",
+          "confidence": 0.88,
+          "bbox": null,
+          "detectedText": "Best Before 12 Months from Packaging"
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Unit Sale Price declared: \"Unit Sale Price: ₹0.68/g\"",
+          "confidence": 0.92,
+          "bbox": [
+            40,
+            235,
+            230,
+            30
+          ],
+          "detectedText": "[Photo 2 (Back)] Unit Sale Price: ₹0.68/g"
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "PASS",
+          "reason": "Dimensions declared: \"Dimensions: 20 cm x 12 cm x 8 cm\"",
+          "confidence": 0.85,
+          "bbox": [
+            40,
+            270,
+            260,
+            30
+          ],
+          "detectedText": "[Photo 2 (Back)] Dimensions: 20 cm x 12 cm x 8 cm"
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "MRP follows prescribed statutory format including all taxes.",
+          "confidence": 0.95,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "PASS",
+          "reason": "Feb 2026 Amendment: Country of origin compliance verified.",
+          "confidence": 0.91,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 13,
+        "failedChecks": 0,
+        "warningChecks": 0,
+        "highSeverityViolations": 0
+      }
+    },
+    {
+      "id": "LM-2026-54062",
+      "product_name": "BRITANNICA CRUNCHY CREAM BISCUITS",
+      "image_url": "/sample-images/01_compliant_biscuits.jpg",
+      "image_urls": [
+        "/sample-images/01_compliant_biscuits.jpg"
+      ],
+      "photo_count": 1,
+      "score": 100,
+      "status": "COMPLIANT",
+      "created_at": "2026-08-31T19:44:05.708Z",
+      "rawText": "BRITANNICA CRUNCHY CREAM BISCUITS\nMfg by: Britannica Foods Pvt Ltd, Plot 42, Industrial Area, Hyderabad 500032\nNet Quantity: 100 g\nMRP ₹50.00 (incl. of all taxes)\nMFD 06/2026\nBest Before 6 Months from packaging\nConsumer Care: 1800-425-1111 / care@britannica.com\nCountry of Origin: India\nUnit Sale Price: ₹0.50/g\nDimensions: 15 cm x 10 cm x 3 cm",
+      "confidence": 0.98,
+      "ocrEngine": "Preset Sample",
+      "fields": {
+        "product_name": "BRITANNICA CRUNCHY CREAM BISCUITS",
+        "manufacturer": "Mfg by: Britannica Foods Pvt Ltd, Plot 42, Industrial Area, Hyderabad 500032",
+        "net_quantity": "100 g",
+        "mrp": "MRP ₹50.00 (incl. of all taxes)",
+        "manufacturing_date": "MFD 06/2026",
+        "best_before": "Best Before 6 Months from packaging",
+        "consumer_care": "Consumer Care: 1800-425-1111 / care@britannica.com",
+        "country_of_origin": "Country of Origin: India Unit Sale Price",
+        "unit_sale_price": "Unit Sale Price: ₹0.50/g",
+        "dimensions": "Dimensions: 15 cm x 10 cm x 3 cm"
+      },
+      "boxes": [
+        {
+          "field": "product_name",
+          "text": "BRITANNICA CRUNCHY CREAM BISCUITS",
+          "bbox": [
+            50,
+            40,
+            420,
+            60
+          ],
+          "confidence": 0.98
+        },
+        {
+          "field": "manufacturer",
+          "text": "Mfg by: Britannica Foods Pvt Ltd, Plot 42, Industrial Area, Hyderabad 500032",
+          "bbox": [
+            50,
+            120,
+            500,
+            45
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field": "net_quantity",
+          "text": "Net Quantity: 100 g",
+          "bbox": [
+            50,
+            180,
+            220,
+            35
+          ],
+          "confidence": 0.97
+        },
+        {
+          "field": "mrp",
+          "text": "MRP ₹50.00 (incl. of all taxes)",
+          "bbox": [
+            300,
+            180,
+            260,
+            35
+          ],
+          "confidence": 0.98
+        },
+        {
+          "field": "manufacturing_date",
+          "text": "MFD 06/2026",
+          "bbox": [
+            50,
+            230,
+            180,
+            30
+          ],
+          "confidence": 0.96
+        },
+        {
+          "field": "best_before",
+          "text": "Best Before 6 Months",
+          "bbox": [
+            250,
+            230,
+            200,
+            30
+          ],
+          "confidence": 0.94
+        },
+        {
+          "field": "consumer_care",
+          "text": "Consumer Care: 1800-425-1111",
+          "bbox": [
+            50,
+            280,
+            400,
+            35
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field": "country_of_origin",
+          "text": "Country of Origin: India",
+          "bbox": [
+            50,
+            330,
+            240,
+            30
+          ],
+          "confidence": 0.96
+        },
+        {
+          "field": "unit_sale_price",
+          "text": "Unit Sale Price: ₹0.50/g",
+          "bbox": [
+            310,
+            330,
+            220,
+            30
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field": "dimensions",
+          "text": "Dimensions: 15 cm x 10 cm x 3 cm",
+          "bbox": [
+            50,
+            380,
+            300,
+            30
+          ],
+          "confidence": 0.95
+        }
+      ],
+      "readability": {
+        "avgTextHeightPx": 20,
+        "confidence": 0.98,
+        "lowContrast": false
+      },
+      "violations": [],
+      "passedDeclarations": [
+        {
+          "ruleId": "LM-001",
+          "field": "manufacturer",
+          "name": "Manufacturer/Packer/Importer Details",
+          "legalSource": "Rule 6(1)(a)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Manufacturer declared: \"Mfg by: Britannica Foods Pvt Ltd, Plot 4...\"",
+          "confidence": 0.92,
+          "bbox": [
+            50,
+            120,
+            500,
+            45
+          ],
+          "detectedText": "Mfg by: Britannica Foods Pvt Ltd, Plot 42, Industrial Area, Hyderabad 500032"
+        },
+        {
+          "ruleId": "LM-002",
+          "field": "product_name",
+          "name": "Common/Generic Name",
+          "legalSource": "Rule 6(1)(b)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Product name detected: \"BRITANNICA CRUNCHY CREAM BISCUITS\"",
+          "confidence": 0.95,
+          "bbox": [
+            50,
+            40,
+            420,
+            60
+          ],
+          "detectedText": "BRITANNICA CRUNCHY CREAM BISCUITS"
+        },
+        {
+          "ruleId": "LM-003",
+          "field": "net_quantity",
+          "name": "Net Quantity Declaration",
+          "legalSource": "Rule 6(1)(c)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Valid Net Quantity: \"100 g\"",
+          "confidence": 0.94,
+          "bbox": [
+            50,
+            180,
+            220,
+            35
+          ],
+          "detectedText": "Net Quantity: 100 g"
+        },
+        {
+          "ruleId": "LM-004",
+          "field": "mrp",
+          "name": "Maximum Retail Price (MRP)",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "MRP detected: \"MRP ₹50.00 (incl. of all taxes)\"",
+          "confidence": 0.96,
+          "bbox": [
+            300,
+            180,
+            260,
+            35
+          ],
+          "detectedText": "MRP ₹50.00 (incl. of all taxes)"
+        },
+        {
+          "ruleId": "LM-005",
+          "field": "manufacturing_date",
+          "name": "Manufacture/Packing/Import Date",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Mfg/Packing date detected: \"MFD 06/2026\"",
+          "confidence": 0.91,
+          "bbox": [
+            50,
+            230,
+            180,
+            30
+          ],
+          "detectedText": "MFD 06/2026"
+        },
+        {
+          "ruleId": "LM-006",
+          "field": "consumer_care",
+          "name": "Consumer Care Details",
+          "legalSource": "Rule 6(2)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Consumer care detected: \"Consumer Care: 1800-425-1111 / care@britannica.com\"",
+          "confidence": 0.93,
+          "bbox": [
+            50,
+            280,
+            400,
+            35
+          ],
+          "detectedText": "Consumer Care: 1800-425-1111"
+        },
+        {
+          "ruleId": "LM-007",
+          "field": "country_of_origin",
+          "name": "Country of Origin",
+          "legalSource": "Rule 6(1)(aa)",
+          "severity": "HIGH",
+          "status": "PASS",
+          "reason": "Country of origin declared: \"Country of Origin: India Unit Sale Price\"",
+          "confidence": 0.9,
+          "bbox": [
+            50,
+            330,
+            240,
+            30
+          ],
+          "detectedText": "Country of Origin: India"
+        },
+        {
+          "ruleId": "LM-008",
+          "field": "best_before",
+          "name": "Best Before / Use By",
+          "legalSource": "Rule 6(1)(d)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Best before info detected: \"Best Before 6 Months from packaging\"",
+          "confidence": 0.88,
+          "bbox": [
+            250,
+            230,
+            200,
+            30
+          ],
+          "detectedText": "Best Before 6 Months"
+        },
+        {
+          "ruleId": "LM-009",
+          "field": "unit_sale_price",
+          "name": "Unit Sale Price",
+          "legalSource": "Rule 6(1)(11)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Unit Sale Price declared: \"Unit Sale Price: ₹0.50/g\"",
+          "confidence": 0.92,
+          "bbox": [
+            310,
+            330,
+            220,
+            30
+          ],
+          "detectedText": "Unit Sale Price: ₹0.50/g"
+        },
+        {
+          "ruleId": "LM-010",
+          "field": "dimensions",
+          "name": "Dimensions Declaration",
+          "legalSource": "Rule 6(1)(f)",
+          "severity": "LOW",
+          "status": "PASS",
+          "reason": "Dimensions declared: \"Dimensions: 15 cm x 10 cm x 3 cm\"",
+          "confidence": 0.85,
+          "bbox": [
+            50,
+            380,
+            300,
+            30
+          ],
+          "detectedText": "Dimensions: 15 cm x 10 cm x 3 cm"
+        },
+        {
+          "ruleId": "LM-011",
+          "field": "mrp_format",
+          "name": "MRP Standard Formatting",
+          "legalSource": "Rule 6(1)(e)",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "MRP follows prescribed statutory format including all taxes.",
+          "confidence": 0.95,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-012",
+          "field": "font_readability",
+          "name": "Image-Based Font & Readability Screening",
+          "legalSource": "Rule 7 & Rule 9",
+          "severity": "MEDIUM",
+          "status": "PASS",
+          "reason": "Image-based screening: Mandatory text declarations meet readability contrast & letter height thresholds.",
+          "confidence": 0.9,
+          "bbox": null,
+          "detectedText": null
+        },
+        {
+          "ruleId": "LM-013",
+          "field": "ecommerce_origin_filter",
+          "name": "2026 Amendment: Country-of-Origin Declaration",
+          "legalSource": "Rule 6 (Feb 2026 Amendment)",
+          "severity": "LOW",
+          "status": "PASS",
+          "reason": "Feb 2026 Amendment: Country of origin compliance verified.",
+          "confidence": 0.91,
+          "bbox": null,
+          "detectedText": null
+        }
+      ],
+      "stats": {
+        "totalChecks": 13,
+        "passedChecks": 13,
+        "failedChecks": 0,
+        "warningChecks": 0,
+        "highSeverityViolations": 0
+      }
+    },
+    {
       "id": "LM-2026-84230",
       "product_name": "Tata Sampann Premium Organic Tea",
       "image_url": "/sample-images/01_compliant_biscuits.jpg",
@@ -18932,7 +22244,7 @@
       ]
     }
   ],
-  "totalInspectionsCount": 169,
-  "historicalCompliant": 84,
-  "historicalNonCompliant": 85
+  "totalInspectionsCount": 174,
+  "historicalCompliant": 86,
+  "historicalNonCompliant": 88
 }
