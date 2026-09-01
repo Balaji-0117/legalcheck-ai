@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Upload, Camera, FileCheck, AlertCircle, ArrowRight, ShieldCheck } from 'lucide-react';
+import { apiUrl } from '../config/api';
 
 const PRESET_SAMPLES = [
   {
@@ -91,7 +92,7 @@ export default function ScanPage({ setActiveTab, setSelectedScanData }) {
         return;
       }
 
-      const response = await fetch('/api/scan', {
+      const response = await fetch(apiUrl('/api/scan'), {
         method: 'POST',
         body: formData
       });

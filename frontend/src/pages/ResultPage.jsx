@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ShieldCheck, AlertTriangle, CheckCircle2, FileText, Download, Eye, ArrowLeft, AlertCircle } from 'lucide-react';
+import { apiUrl } from '../config/api';
 
 export default function ResultPage({ scanData, setActiveTab }) {
   const [showBoxes, setShowBoxes] = useState(true);
@@ -35,7 +36,7 @@ export default function ResultPage({ scanData, setActiveTab }) {
   const allImages = image_urls && image_urls.length > 0 ? image_urls : [image_url || '/sample-images/01_compliant_biscuits.jpg'];
 
   const handleDownloadPdf = () => {
-    window.open(`/api/reports/${id}/pdf`, '_blank');
+    window.open(apiUrl(`/api/reports/${id}/pdf`), '_blank');
   };
 
   // Filter boxes by selected side if multi-side

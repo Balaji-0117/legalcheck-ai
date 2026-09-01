@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { ShieldCheck, AlertTriangle, CheckCircle2, TrendingUp, ArrowRight, Eye, Camera, AlertCircle } from 'lucide-react';
+import { apiUrl } from '../config/api';
 
 export default function Dashboard({ setActiveTab, setSelectedScanId }) {
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/dashboard/stats')
+    fetch(apiUrl('/api/dashboard/stats'))
       .then(res => res.json())
       .then(resData => {
         if (resData.success) {

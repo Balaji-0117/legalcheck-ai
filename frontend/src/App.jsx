@@ -5,6 +5,7 @@ import ScanPage from './pages/ScanPage';
 import ResultPage from './pages/ResultPage';
 import HistoryPage from './pages/HistoryPage';
 import RulesPage from './pages/RulesPage';
+import { apiUrl } from './config/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -13,7 +14,7 @@ export default function App() {
 
   useEffect(() => {
     if (selectedScanId) {
-      fetch(`/api/scans/${selectedScanId}`)
+      fetch(apiUrl(`/api/scans/${selectedScanId}`))
         .then(res => res.json())
         .then(resData => {
           if (resData.success) {

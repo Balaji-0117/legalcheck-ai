@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Search, Filter, Eye, History, Download, RefreshCw } from 'lucide-react';
+import { apiUrl } from '../config/api';
 
 export default function HistoryPage({ setActiveTab, setSelectedScanData }) {
   const [scans, setScans] = useState([]);
@@ -9,7 +10,7 @@ export default function HistoryPage({ setActiveTab, setSelectedScanData }) {
 
   const fetchScans = () => {
     setLoading(true);
-    fetch('/api/scans')
+    fetch(apiUrl('/api/scans'))
       .then(res => res.json())
       .then(resData => {
         if (resData.success) {
@@ -146,7 +147,7 @@ export default function HistoryPage({ setActiveTab, setSelectedScanData }) {
                       <button
                         className="btn-secondary"
                         style={{ padding: '4px 8px', fontSize: '0.78rem' }}
-                        onClick={() => window.open(`/api/reports/${scan.id}/pdf`, '_blank')}
+                        onClick={() => window.open(apiUrl(`/api/reports/${scan.id}/pdf`), '_blank')}
                       >
                         <Download size={14} /> PDF
                       </button>
