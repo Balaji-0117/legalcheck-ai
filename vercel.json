@@ -4,6 +4,18 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/api/(.*)",
+      "destination": "https://legalcheck-ai-backend.onrender.com/api/$1"
+    },
+    {
+      "source": "/uploads/(.*)",
+      "destination": "https://legalcheck-ai-backend.onrender.com/uploads/$1"
+    },
+    {
+      "source": "/sample-images/(.*)",
+      "destination": "https://legalcheck-ai-backend.onrender.com/sample-images/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
