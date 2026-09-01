@@ -83,11 +83,15 @@ router.get('/debug/ocr', async (req, res) => {
   }
 
   if (testFile) {
+    const pythonExe = fs.existsSync('/opt/render/project/src/.venv/bin/python') 
+      ? '/opt/render/project/src/.venv/bin/python' 
+      : (process.platform === 'win32' ? 'python' : 'python3');
+
     await new Promise((resolve) => {
       execFile(
-        process.platform === 'win32' ? 'python' : (process.env.PYTHON_PATH || 'python3'),
+        pythonExe,
         [runnerPath, testFile],
-        { encoding: 'utf-8', timeout: 15000 },
+        { encoding: 'utf-8', timeout: 20000 },
         (err, stdout, stderr) => {
           testStdout = stdout;
           testError = err ? { message: err.message, stderr } : null;

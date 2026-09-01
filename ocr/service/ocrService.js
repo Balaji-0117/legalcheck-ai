@@ -24,22 +24,21 @@ function getPythonExecutable() {
     return process.env.PYTHON_PATH;
   }
 
-  const linuxVenvPaths = [
+  const linuxVenvCandidates = [
     '/opt/render/project/src/.venv/bin/python',
     '/opt/render/project/src/.venv/bin/python3',
     '/opt/render/project/src/backend/.venv/bin/python',
-    '/opt/render/project/.venv/bin/python',
-    'python3',
-    'python'
+    '/opt/render/project/.venv/bin/python'
   ];
 
-  for (const p of linuxVenvPaths) {
-    if (p.startsWith('/') && fs.existsSync(p)) {
+  for (const p of linuxVenvCandidates) {
+    if (fs.existsSync(p)) {
       return p;
     }
   }
 
-  return process.platform === 'win32' ? 'python' : 'python3';
+  // On Render Linux, 'python' points to the active virtual environment
+  return 'python';
 }
 
 function runPythonScript(scriptPath, imagePath, timeoutMs) {
@@ -51,7 +50,7 @@ function runPythonScript(scriptPath, imagePath, timeoutMs) {
       { encoding: 'utf-8', timeout: timeoutMs, maxBuffer: 10 * 1024 * 1024 },
       (err, stdout, stderr) => {
         if (err || !stdout || !stdout.trim()) {
-          console.warn(`[OCR Warning] Python script (${path.basename(scriptPath)}) execution error:`, err ? err.message : 'empty output');
+          console.warn(`[OCR Warning] Python runner (${path.basename(scriptPath)}) error:`, err ? err.message : 'empty stdout');
           if (stderr) console.warn(`[OCR Warning] stderr:`, stderr.substring(0, 300));
           return resolve(null);
         }
@@ -66,11 +65,11 @@ function runPythonScript(scriptPath, imagePath, timeoutMs) {
             return resolve(result);
           }
           if (result && result.error) {
-            console.warn(`[OCR Warning] Script returned error:`, result.error);
+            console.warn(`[OCR Warning] Python script returned error:`, result.error);
           }
           resolve(null);
         } catch (parseErr) {
-          console.warn(`[OCR Warning] JSON parse failed:`, parseErr.message);
+          console.warn(`[OCR Warning] JSON parse error:`, parseErr.message);
           resolve(null);
         }
       }
