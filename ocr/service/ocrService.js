@@ -2,9 +2,10 @@
  * OCR Service Layer
  * LegalCheck AI - Packaged Commodity Inspection System
  * 
- * Pipeline:
- *  1. Primary Engine: PaddleOCR (Baidu PP-OCR v4 / RapidOCR)
- *  2. Fallback Engine: EasyOCR (PyTorch-backed) if PaddleOCR fails or returns empty text
+ * Multi-Tiered Architecture:
+ *  1. Primary Engine: PaddleOCR (Baidu PP-OCR v4 via RapidOCR ONNX)
+ *  2. Secondary Engine: EasyOCR (PyTorch-backed)
+ *  3. Fallback Engine: Tesseract.js (Pure Node.js In-Memory OCR)
  */
 
 const fs = require('fs');
@@ -13,21 +14,53 @@ const { execFile } = require('child_process');
 const { processImage } = require('../preprocessing/imageProcessor');
 const { extractDeclarations } = require('../parser/declarationExtractor');
 
+let Tesseract = null;
+try {
+  Tesseract = require('tesseract.js');
+} catch (e) {
+  // Optional if tesseract is in backend/node_modules
+}
+
 const SAMPLES_DIR = path.join(__dirname, '../../sample-data/ocr');
 const PADDLEOCR_RUNNER = path.join(__dirname, '../paddleocr_runner.py');
 const EASYOCR_RUNNER = path.join(__dirname, '../easyocr_runner.py');
+const OCR_TIMEOUT_MS = 30000;
 
-const PYTHON_EXEC = process.platform === 'win32' ? 'python' : 'python3';
-const OCR_TIMEOUT_MS = 25000;
+function getPythonExecutable() {
+  if (process.env.PYTHON_PATH && fs.existsSync(process.env.PYTHON_PATH)) {
+    return process.env.PYTHON_PATH;
+  }
+
+  const linuxVenvPaths = [
+    '/opt/render/project/src/.venv/bin/python',
+    '/opt/render/project/src/.venv/bin/python3',
+    '/opt/render/project/src/backend/.venv/bin/python',
+    '/opt/render/project/.venv/bin/python',
+    'python3',
+    'python'
+  ];
+
+  for (const p of linuxVenvPaths) {
+    if (p.startsWith('/') && fs.existsSync(p)) {
+      return p;
+    }
+  }
+
+  return process.platform === 'win32' ? 'python' : 'python3';
+}
 
 function runPythonScript(scriptPath, imagePath, timeoutMs) {
+  const pythonCmd = getPythonExecutable();
   return new Promise((resolve) => {
     execFile(
-      PYTHON_EXEC,
+      pythonCmd,
       [scriptPath, imagePath],
       { encoding: 'utf-8', timeout: timeoutMs, maxBuffer: 10 * 1024 * 1024 },
       (err, stdout, stderr) => {
         if (err || !stdout || !stdout.trim()) {
+          if (err) {
+            console.warn(`[OCR Warning] Python script (${path.basename(scriptPath)}) error:`, err.message);
+          }
           return resolve(null);
         }
         try {
@@ -44,6 +77,43 @@ function runPythonScript(scriptPath, imagePath, timeoutMs) {
       }
     );
   });
+}
+
+async function runTesseractFallback(imagePath) {
+  if (!Tesseract) {
+    try {
+      Tesseract = require(path.join(__dirname, '../../backend/node_modules/tesseract.js'));
+    } catch (e) {
+      return null;
+    }
+  }
+
+  try {
+    const { data: { text, words } } = await Tesseract.recognize(imagePath, 'eng');
+    if (!text || !text.trim()) return null;
+
+    const boxes = (words || []).map((w) => ({
+      field: 'text_line',
+      text: w.text,
+      confidence: Math.round((w.confidence || 85)) / 100,
+      bbox: [
+        w.bbox ? w.bbox.x0 : 40,
+        w.bbox ? w.bbox.y0 : 40,
+        w.bbox ? Math.max(10, w.bbox.x1 - w.bbox.x0) : 100,
+        w.bbox ? Math.max(10, w.bbox.y1 - w.bbox.y0) : 30
+      ]
+    }));
+
+    return {
+      rawText: text.trim(),
+      confidence: 0.85,
+      boxes: boxes,
+      engine: 'Tesseract OCR (Node.js)'
+    };
+  } catch (err) {
+    console.error('[OCR Error] Tesseract fallback failed:', err.message);
+    return null;
+  }
 }
 
 async function performOCRScan(imageBufferOrPath, sampleId = null, originalFilename = '') {
@@ -81,7 +151,7 @@ async function performOCRScan(imageBufferOrPath, sampleId = null, originalFilena
       usedEngine = 'PaddleOCR (Primary)';
       console.log(`[OCR Engine] Primary: PaddleOCR processed ${path.basename(imageBufferOrPath)} (${extractedBoxes.length} text blocks)`);
     } else {
-      // Step 2b: Fallback to Backup Engine (EasyOCR)
+      // Step 2b: Fallback to Secondary Engine (EasyOCR)
       console.warn(`[OCR Engine] PaddleOCR returned empty/failed. Triggering EasyOCR backup for ${path.basename(imageBufferOrPath)}`);
       const easyResult = await runPythonScript(EASYOCR_RUNNER, imageBufferOrPath, OCR_TIMEOUT_MS);
       if (easyResult && easyResult.rawText && easyResult.rawText.trim().length > 3) {
@@ -90,6 +160,17 @@ async function performOCRScan(imageBufferOrPath, sampleId = null, originalFilena
         extractedBoxes = easyResult.boxes || [];
         usedEngine = 'EasyOCR (Backup)';
         console.log(`[OCR Engine] Backup: EasyOCR processed ${path.basename(imageBufferOrPath)} (${extractedBoxes.length} text blocks)`);
+      } else {
+        // Step 2c: Fallback to Tertiary Engine (Tesseract.js inside Node)
+        console.warn(`[OCR Engine] Python OCR unavailable on host. Running Node Tesseract OCR fallback...`);
+        const tessResult = await runTesseractFallback(imageBufferOrPath);
+        if (tessResult && tessResult.rawText && tessResult.rawText.trim().length > 3) {
+          extractedRawText = tessResult.rawText;
+          ocrConfidence = tessResult.confidence || 0.82;
+          extractedBoxes = tessResult.boxes || [];
+          usedEngine = 'Tesseract OCR (Cloud Fallback)';
+          console.log(`[OCR Engine] Cloud Fallback: Tesseract processed ${path.basename(imageBufferOrPath)} (${extractedBoxes.length} text blocks)`);
+        }
       }
     }
   }
